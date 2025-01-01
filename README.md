@@ -1,12 +1,14 @@
 # SemanticBPM
-Внедрение в инструменты BPM (Business Process Management software tools моделирования верхнеуровневых и детальных процессов) и EA (от бизнес-архитектуры до CMBD) технологий knowledge management на стандартах Linked Data (LD). 
+Business Process Management software tools - инструменты моделирования верхнеуровневых и детальных процессов, т.е. классические BPM-системы типа ARIS. SemanticBPM - это проект внедрения в инструменты BPM и EA (от бизнес-архитектуры Enterprise Architecture до CMBD) технологий knowledge management на стандартах Linked Data (LD). 
 # Цель 
-Внедрение в инструменты BPM (Business Process Management software tools моделирования верхнеуровневых и детальных процессов) и EA (от бизнес-архитектуры до CMBD) технологий knowledge management на стандартах Linked Data (LD). 
-Общая концепция изложена в статьях (концепт: MediaWiki vs Semantic MediaWiki):
+Внедрение в инструменты BPM и EA технологий knowledge management на стандартах Linked Data (LD), аналогичного концепту: "MediaWiki vs Semantic MediaWiki".
+Общая концепция BPM vs semanticBPM изложена в статьях :
 - Semantic BPM. Семантика и синтаксис бизнес-процессов
 https://habr.com/ru/articles/795883/  
 - Semantic BPM. Онтологическое моделирование верхнеуровневых процессов. VAD
 https://habr.com/ru/articles/828266/
+
+Для начала - хотелость бы собрать простой редактор \ паблишер на VAD нотации (с возможностью изменения нотации), в нем составить верхнеуровневую архитектуру бизнес-процессов компании (реальной или вымышленной). Редактор должен как минимум поддерживать семантическое пердставление и import \ export в RDF. Далее можно развиваить этот простой редактор или взять известный BPM инструмент и туда встроить "семантику" (т.е. концепт MediaWiki \ Semantic MediaWiki).  
 # Ограничения
 Вопрос: Что даст построение BPMS (BPM-системы моделирования) на стандартах LD для топ-менеджеров и рядовых бизнес-пользователей – читателей схем процессов? 
 
