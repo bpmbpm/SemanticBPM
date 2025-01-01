@@ -33,4 +33,4 @@ https://habr.com/ru/articles/810851/
 https://github.com/bpmbpm/exDOTsmartDesign
 https://bpmbpm.github.io/jsDOTsmartDesign/jsDOTsmartDesign.html
 
-Нечто похожее на PlantUML https://habr.com/ru/articles/865140/
+Нечто похожее на PlantUML (RomanSeleznev) https://habr.com/ru/articles/865140/
