@@ -20,3 +20,9 @@
 # Просмотр схем онлайн
 
 - [vad_1 на diagrams.net](https://app.diagrams.net/?src=about#Hbpmbpm%2FSemanticBPM%2Fmain%2FVAD-LD-drawio%2FfileUTF_v1_xml2.drawio.xml#%7B%22pageId%22%3A%228ce9d11a-91a2-4d17-14d8-a56ed91bf033%22%7D)
+
+# Обратный вывод диаграммы в GUI
+
+Обратная задача: по имеющемуся ttl диаграммы сделать вывод в графическом интерфейсе. На данный момент делается тривиальный вывод имеющихся IRI узлов типа VAD Process через загрузку ttl в triplestore и отработку SPARQL-запроса:
+
+<img src="gui_output_1.png" width="400" />
