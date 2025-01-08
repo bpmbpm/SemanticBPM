@@ -1,0 +1,183 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vad: <http://example.org/semanter/vad#> .
+@prefix geom: <http://example.org/semanter/geometry#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sem: <http://example.org/semanter/core#> .
+
+vad:Process3  rdf:type  vad:Process .
+
+_:b0    sh:path      geom:x ;
+        sh:datatype  xsd:integer .
+
+vad:followsTo  rdfs:range  vad:Process ;
+        rdfs:domain  vad:Process ;
+        rdf:type     sem:DirectedArc .
+
+geom:Central_Horizontal_Alignment
+        rdf:type  geom:HorizontalAlignment .
+
+sem:SpatialDiagramElementNode
+        sh:targetClass  sem:SpatialDiagramElement ;
+        sh:property     _:b1 ;
+        sh:property     _:b2 ;
+        sh:property     _:b3 ;
+        sh:property     _:b4 ;
+        rdf:type        sh:NodeShape .
+
+geom:x2  geom:subproperety-of  geom:x ;
+        rdf:type              owl:DatatypeProperty .
+
+vad:followedBy  rdfs:range  vad:Process ;
+        owl:inverseOf  vad:followsTo ;
+        rdfs:domain    vad:Process ;
+        rdf:type       sem:DirectedArc .
+
+sem:UndirectedArc  rdfs:subClassOf  sem:Arc ;
+        rdf:type         owl:Class .
+
+_:b3    sh:path      geom:x2 ;
+        sh:datatype  xsd:integer .
+
+geom:Central_Vertical_Alignment
+        rdf:type  geom:VerticalAlignment .
+
+sem:Lane  rdfs:subClassOf  sem:FigureElement ;
+        rdf:type         owl:Class .
+
+geom:Distribution_By_Centers
+        rdf:type  geom:Distribution .
+
+geom:Grid_Alignment  rdf:type  geom:Alignment .
+
+sem:DotlikeDiagramElementNode
+        sh:targetClass  sem:DotlikeDiagramElement ;
+        sh:property     _:b5 ;
+        sh:property     _:b0 ;
+        rdf:type        sh:NodeShape .
+
+sem:Point  rdfs:subClassOf  sem:PointElement ;
+        rdf:type         owl:Class .
+
+_:b1    sh:path      geom:y2 ;
+        sh:datatype  xsd:integer .
+
+geom:Bottom_Alignment
+        rdf:type  geom:VerticalAlignment .
+
+vad:Process2  vad:followsTo  vad:Process3 ;
+        rdf:type       vad:Process .
+
+geom:y  rdf:type  owl:DatatypeProperty .
+
+geom:Top_Alignment  rdf:type  geom:VerticalAlignment .
+
+geom:x1  geom:subproperety-of  geom:x ;
+        rdf:type              owl:DatatypeProperty .
+
+_:b5    sh:path      geom:y ;
+        sh:datatype  xsd:integer .
+
+<http://example.org/semanter/geometry>
+        rdfs:comment  "Geometry ontology describes the spatial properties of diagram entities - their position, sizes, widths etc." ;
+        rdf:type      owl:Ontology .
+
+geom:circle_size_parameter
+        geom:subproperety-of  geom:ellipse_size_parameter ;
+        rdf:type              owl:DatatypeProperty .
+
+sem:DiagramElement  rdf:type  owl:Class .
+
+geom:rectangle_size_parameter
+        geom:subproperety-of  geom:size_parameter ;
+        rdf:type              owl:DatatypeProperty .
+
+sem:Symbol  rdfs:subClassOf  sem:PointElement ;
+        rdf:type         owl:Class .
+
+vad:Process1  vad:followsTo  vad:Process2 ;
+        rdf:type       vad:Process .
+
+geom:semi_minor_axis  geom:subproperety-of  geom:ellipse_size_parameter ;
+        rdf:type              owl:DatatypeProperty .
+
+sem:Arc  rdfs:subClassOf  owl:ObjectProperty ;
+        rdfs:subClassOf  sem:LineElement ;
+        rdf:type         owl:Class .
+
+geom:width  geom:subproperety-of  geom:rectangle_size_parameter ;
+        rdf:type              owl:DatatypeProperty .
+
+geom:diameter  geom:subproperety-of  geom:circle_size_parameter ;
+        rdf:type              owl:DatatypeProperty .
+
+sem:BidirectedArc  rdfs:subClassOf  sem:DirectedArc ;
+        rdf:type         owl:Class .
+
+geom:x  rdf:type  owl:DatatypeProperty .
+
+geom:y2  geom:subproperety-of  geom:y ;
+        rdf:type              owl:DatatypeProperty .
+
+sem:DirectedArc  rdfs:subClassOf  sem:Arc ;
+        rdf:type         owl:Class .
+
+geom:Right_Alignment  rdf:type  geom:HorizontalAlignment .
+
+<http://example.org/semanter/vad>
+        rdf:type  owl:Ontology .
+
+_:b4    sh:path      geom:x1 ;
+        sh:datatype  xsd:integer .
+
+sem:PointElement  rdfs:subClassOf  sem:DiagramElement ;
+        rdf:type         owl:Class .
+
+geom:ellipse_size_parameter
+        geom:subproperety-of  geom:size_parameter ;
+        rdf:type              owl:DatatypeProperty .
+
+sem:Annotation  rdfs:subClassOf  sem:DiagramElement ;
+        rdf:type         owl:Class .
+
+geom:Distribution_By_Space_Between
+        rdf:type  geom:Distribution .
+
+geom:height  geom:subproperety-of  geom:rectangle_size_parameter ;
+        rdf:type              owl:DatatypeProperty .
+
+geom:Left_Alignment  rdf:type  geom:HorizontalAlignment .
+
+geom:y1  geom:subproperety-of  geom:y ;
+        rdf:type              owl:DatatypeProperty .
+
+<http://example.org/semanter/core>
+        rdfs:comment  "This ontology contains general entities, used in the diagrams no matter of their type" ;
+        rdf:type      owl:Ontology .
+
+geom:semi_major_axis  geom:subproperety-of  geom:ellipse_size_parameter ;
+        rdf:type              owl:DatatypeProperty .
+
+sem:Node  rdfs:subClassOf  sem:FigureElement ;
+        rdf:type         owl:Class .
+
+geom:radius  geom:subproperety-of  geom:circle_size_parameter ;
+        rdf:type              owl:DatatypeProperty .
+
+sem:LineElement  rdfs:subClassOf  sem:DiagramElement ;
+        rdf:type         owl:Class .
+
+sem:FigureElement  rdfs:subClassOf  sem:DiagramElement ;
+        rdf:type         owl:Class .
+
+geom:size_parameter  rdf:type  owl:DatatypeProperty .
+
+_:b2    sh:path      geom:y1 ;
+        sh:datatype  xsd:integer .
+
+vad:Process  rdfs:subClassOf  sem:Node ;
+        rdf:type         owl:Class ;
+        rdf:type         geom:RoundedRectangle .
