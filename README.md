@@ -44,7 +44,7 @@ https://bpmbpm.github.io/jsDOTsmartDesign/jsDOTsmartDesign.html
 - BPM - Business Process Management
 - BPMS - BPM-системы моделирования
 - BPMN - Business Process Model and Notation
-- CMBD - Configuration management database - база данных управления конфигурацией \ конфигурационных единиц (CI = оборудования, ПО и др.)
+- CMBD - Configuration management database - база данных управления конфигурацией \ конфигурационных единиц (CI = оборудование, ПО и др.)
   https://en.wikipedia.org/wiki/Configuration_management_database
 - EA - Enterprise Architecture - Архитектура предприятия как в широком смысле, так и в узком - IT архитектура компании
   https://habr.com/ru/articles/726428/
