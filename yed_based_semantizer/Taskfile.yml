@@ -1,0 +1,6 @@
+version: "3"
+
+tasks:
+  parse_vad_2:
+    cmds:
+      - vad_graphml_to_ttl.py -i ../samples/vad_2/vad_2.graphml -o ../samples/vad_2/vad_2.ttl

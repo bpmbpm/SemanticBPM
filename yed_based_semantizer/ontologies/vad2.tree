@@ -1,0 +1,19 @@
+vad2_ontology a:owl/Ontology ns:http://example.org/vad2#
+	namespaces
+		owl ns:http://www.w3.org/2002/07/owl#
+		rdf ns:http://www.w3.org/1999/02/22-rdf-syntax-ns#
+		rdfs ns:http://www.w3.org/2000/01/rdf-schema#
+		sh ns:http://www.w3.org/ns/shacl#
+		xsd ns:http://www.w3.org/2001/XMLSchema#
+	classes +a:owl/Class +hi-inv-rel:subclass-of
+		Element
+			Comment
+			Diagram
+			Process
+			Performer
+	object_properties +a:owl/ObjectProperty +hi-inv-rel:subproperty-of
+		next
+		previous inverse-of:next
+		performs
+	datatype_properties +a:owl/DatatypeProperty +hi-inv-rel:subproperty-of
+		comment

@@ -44,9 +44,11 @@ https://bpmbpm.github.io/jsDOTsmartDesign/jsDOTsmartDesign.html
 - BPM - Business Process Management
 - BPMS - BPM-системы моделирования
 - BPMN - Business Process Model and Notation
-- CMBD - ?
-- EA - Enterprise Architecture
-- EPC - ?
+- CMBD - Configuration management database - база данных управления конфигурацией \ конфигурационных единиц (CI = оборудование, ПО и др.)
+  https://en.wikipedia.org/wiki/Configuration_management_database
+- EA - Enterprise Architecture - Архитектура предприятия как в широком смысле, так и в узком - IT архитектура компании
+  https://habr.com/ru/articles/726428/
+- EPC - Event-Driven Process Chain, цепочка процессов, управляемая событиями (диаграмма) http://sewiki.ru/Event-Driven_Process_Chain
 - LD - Linked Data, исторически набор лучших практик для публикации и связывании данных в интернете, который используется сейчас и для локальных задач
 - RDF - Resource Description Framework, графовая модель описания сложных систем, в которой элементы и связи в системе универсально называются "ресурсами", при этом элементам соответствуют вершины графа, а связям - ребра.
 - SVG - Scalable Vector Graphics, XML формат для представления векторной графики.

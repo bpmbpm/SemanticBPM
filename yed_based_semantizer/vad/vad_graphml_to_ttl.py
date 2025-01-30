@@ -9,14 +9,19 @@ namespaces = {"g": "http://graphml.graphdrawing.org/xmlns", "y": "http://www.ywo
 nodes_xpath = '//g:graph/g:node'
 edges_xpath = '//g:graph/g:edge'
 
-shape_type_mapping = {
-    "rectangle": "owl:Class",
-    "ellipse": "xsd:string",
-    "parallelogram": "xsd:integer",
-    "hexagon": "xsd:dateTime",
+# shape_type_mapping = {
+#     "rectangle": "owl:Class",
+#     "ellipse": "xsd:string",
+#     "parallelogram": "xsd:integer",
+#     "hexagon": "xsd:dateTime",
+# }
+
+node_configuration_mapping = {
+    "com.yworks.flowchart.userMessage": "vad:Process",
+    "com.yworks.flowchart.start1": "vad:Performer"
 }
 
-onto_predicates = ["a", "rdf:type", "rdfs:subClassOf", "rdfs:subPropertyOf", "owl:inverseOf", "owl:sameAs", "owl:equivalentClass", "owl:equivalentProperty"]
+onto_predicates = ["a", "rdf:type", "vad:next", "vad:previous", "vad:comment", "vad:performs"]
 
 def prefix_header(prefix_file):
 
@@ -25,6 +30,7 @@ def prefix_header(prefix_file):
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vad: <http://example.org/vad2#> .
 """
 
     if prefix_file:
@@ -38,8 +44,8 @@ def prefix_header(prefix_file):
 def ontology_header(namespace, version):
     return f"""
 <{namespace[:-1]}>
-    a owl:Ontology ;
-    owl:versionInfo "{version}" .
+    a vad:Diagram ;
+    .
 """
 
 def is_attribute(node):
@@ -114,28 +120,6 @@ def build_onto_triples(nodes, edges):
         object = get_node_by_id(nodes, edge["target"])["label"]
         result += standalone_str(f"{subject} {predicate} {object} .")
     return result
-
-def build_shacl_rules(nodes, edges, subject_id):
-    edges = get_oprop_edges(edges)
-    subject = get_node_by_id(nodes, subject_id)
-    label = subject["label"]
-    shacl = f"""
-{label}Shape a sh:NodeShape .
-{label}Shape sh:targetClass {label} .
-"""
-    for edge in edges:
-        if edge["source"] == subject_id:
-            object = get_node_by_id(nodes, edge["target"])
-            shacl += """{}Shape sh:property
-[
-    sh:path {} ;
-    {} {}
-].
-""".format(label,
-           object["label"] if edge["label"] == "attribute" else edge["label"],
-           "sh:datatype" if edge["label"] == "attribute" else "sh:class",
-           object["type"] if edge["label"] == "attribute" else object["label"])
-    return shacl
 
 if __name__ == "__main__":
     parser = ArgumentParser()
