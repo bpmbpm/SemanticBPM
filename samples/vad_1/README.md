@@ -35,6 +35,8 @@
   https://www.drawio.com/blog/single-repository-diagrams
   
   https://github.com/jgraph/drawio/issues/3797
+
+  см. settings \ integrations \ draw.io App
   
 # Обратный вывод диаграммы в GUI
 
