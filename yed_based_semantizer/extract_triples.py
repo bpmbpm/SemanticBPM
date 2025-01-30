@@ -6,16 +6,23 @@ namespaces = {"g": "http://graphml.graphdrawing.org/xmlns", "y": "http://www.ywo
 nodes_xpath = '//g:graph/g:node'
 edges_xpath = '//g:graph/g:edge'
 
-shape_type_mapping = {
-    "ellipse": "rdfs:Literal",
-    "rectangle": "owl:Class",
+# shape_type_mapping = {
+#     "ellipse": "rdfs:Literal",
+#     "rectangle": "owl:Class",
+# }
+
+node_configuration_mapping = {
+    "com.yworks.flowchart.userMessage": "vad:Process",
+    "com.yworks.flowchart.start1": "vad:Performer",
+    "com.yworks.flowchart.process": "vad:Comment"
 }
 
 def get_node_parameters(node):
     return {
         "id": node.xpath("@id", namespaces = namespaces)[0],
-        "label": node.xpath("g:data/y:ShapeNode/y:NodeLabel/text()", namespaces = namespaces)[0],
-        "type": shape_type_mapping[node.xpath("g:data/y:ShapeNode/y:Shape/@type", namespaces = namespaces)[0]],
+        "label": node.xpath("g:data/y:GenericNode/y:NodeLabel/text()", namespaces = namespaces)[0],
+        # "type": shape_type_mapping[node.xpath("g:data/y:ShapeNode/y:Shape/@type", namespaces = namespaces)[0]],
+        "type": node_configuration_mapping[node.xpath("g:data/y:GenericNode/@configuration", namespaces = namespaces)[0]],
     }
 
 def get_edge_parameters(edge):
@@ -25,7 +32,6 @@ def get_edge_parameters(edge):
     label = edge.xpath(f"g:data/y:PolyLineEdge/y:EdgeLabel/text()", namespaces = namespaces)[0]
     return {
         "id": id,
-        "type": "rdf:Property",
         "source": source,
         "target": target,
         "label": label,
@@ -36,7 +42,7 @@ def build_triple(edge, processed_nodes):
     target_node = list(filter(lambda node: node["id"] == edge["target"], processed_nodes))[0]
     return [source_node["label"], edge["label"], target_node["label"]]
 
-tree = etree.parse("diagrams/siem_example.graphml")
+tree = etree.parse("../samples/vad_2/vad_2.graphml")
 
 nodes = tree.xpath(nodes_xpath, namespaces = namespaces)
 edges = tree.xpath(edges_xpath, namespaces = namespaces)
