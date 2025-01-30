@@ -24,6 +24,10 @@
 - [Было работало: vad_1 на diagrams.net](https://app.diagrams.net/?src=about#Hbpmbpm%2FSemanticBPM%2Fmain%2Fsamples%2Fvad_1%2Fvad_1.drawio)
   
 - [Еще test2](https://app.diagrams.net/?src=about#Hbpmbpm%2FSemanticBPM%2Fmain%2Fsamples%2Fvad_1%2Ftest2.drawio)
+
+  Однако похоже чтобы смотреть схемы нужно авторизоваться на github. Так ли это? И хотелось бы чтобы без авторизации.
+
+  В любом случае нужно понаблюдать и понять после чего ссылки на путь к файлу сбиваются (bpmbpm/SemanticBPM/main/samples/vad_1)
   
 # Обратный вывод диаграммы в GUI
 
