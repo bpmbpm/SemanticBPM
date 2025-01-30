@@ -33,6 +33,8 @@
 
   Cссылки:
   https://www.drawio.com/blog/single-repository-diagrams
+
+  https://www.drawio.com/blog/embed-diagrams-github-markdown
   
   https://github.com/jgraph/drawio/issues/3797
 
