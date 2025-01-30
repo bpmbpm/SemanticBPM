@@ -19,12 +19,14 @@
 
 # Просмотр схем онлайн
 
-- [Стало почему то так и не работает: vad_1 на diagrams.net](https://app.diagrams.net/?src=about#Hbpmbpm%2FSemanticBPM%2Fmain%2FVAD-LD-drawio%2FfileUTF_v1_xml2.drawio.xml#%7B%22pageId%22%3A%228ce9d11a-91a2-4d17-14d8-a56ed91bf033%22%7D)
+- [Стало почему-то так, и уже не работает: vad_1 на diagrams.net](https://app.diagrams.net/?src=about#Hbpmbpm%2FSemanticBPM%2Fmain%2FVAD-LD-drawio%2FfileUTF_v1_xml2.drawio.xml#%7B%22pageId%22%3A%228ce9d11a-91a2-4d17-14d8-a56ed91bf033%22%7D)
   
-- [Было работало: vad_1 на diagrams.net](https://app.diagrams.net/?src=about#Hbpmbpm%2FSemanticBPM%2Fmain%2Fsamples%2Fvad_1%2Fvad_1.drawio)
+- [Было так, и работало: vad_1 на diagrams.net](https://app.diagrams.net/?src=about#Hbpmbpm%2FSemanticBPM%2Fmain%2Fsamples%2Fvad_1%2Fvad_1.drawio)
   
 - [Еще test2](https://app.diagrams.net/?src=about#Hbpmbpm%2FSemanticBPM%2Fmain%2Fsamples%2Fvad_1%2Ftest2.drawio)
 
+  По нажатию на ссылку, проваливамся в drawio, редактируем файл, сохраняем в drawio (вверху вылезает напоминание) и возвращаемсся в github.
+   
   Однако похоже чтобы смотреть схемы нужно авторизоваться на github. Так ли это? И хотелось бы чтобы без авторизации.
 
   В любом случае нужно понаблюдать и понять после чего ссылки на путь к файлу сбиваются (bpmbpm/SemanticBPM/main/samples/vad_1)
