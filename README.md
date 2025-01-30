@@ -45,7 +45,7 @@ https://bpmbpm.github.io/jsDOTsmartDesign/jsDOTsmartDesign.html
 - BPMS - BPM-системы моделирования
 - BPMN - Business Process Model and Notation
 - CMBD - ?
-- EA - ?
+- EA - Enterprise Architecture
 - EPC - ?
 - LD - Linked Data, исторически набор лучших практик для публикации и связывании данных в интернете, который используется сейчас и для локальных задач
 - RDF - Resource Description Framework, графовая модель описания сложных систем, в которой элементы и связи в системе универсально называются "ресурсами", при этом элементам соответствуют вершины графа, а связям - ребра.
