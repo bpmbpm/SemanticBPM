@@ -30,6 +30,10 @@
   Однако похоже чтобы смотреть схемы нужно авторизоваться на github. Так ли это? И хотелось бы чтобы без авторизации.
 
   В любом случае нужно понаблюдать и понять после чего ссылки на путь к файлу сбиваются (bpmbpm/SemanticBPM/main/samples/vad_1)
+
+  Cссылки:
+  https://www.drawio.com/blog/single-repository-diagrams
+  https://github.com/jgraph/drawio/issues/3797
   
 # Обратный вывод диаграммы в GUI
 
