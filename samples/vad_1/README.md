@@ -25,6 +25,8 @@
   
 - [Еще test2](https://app.diagrams.net/?src=about#Hbpmbpm%2FSemanticBPM%2Fmain%2Fsamples%2Fvad_1%2Ftest2.drawio)
 
+<img src="https://app.diagrams.net/?src=about#Hbpmbpm%2FSemanticBPM%2Fmain%2Fsamples%2Fvad_1%2Ftest2.drawio" width="400" />
+
   По нажатию на ссылку, проваливамся в drawio, редактируем файл, сохраняем в drawio (вверху вылезает напоминание) и возвращаемсся в github. Редактирование только для соавторов конечно (Collaborator). 
    
   Однако похоже чтобы даже только смотреть схемы нужно авторизоваться на github (обычные пользователи, не соавторы). Так ли это? Хотелось бы чтобы "на чтение" схемы drawio открывались в облаке drawio без авторизации на github.
