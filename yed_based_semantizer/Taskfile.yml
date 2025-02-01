@@ -1,6 +1,13 @@
 version: "3"
 
 tasks:
-  parse_vad_2:
+  
+  parse_vad:
+    silent: true
     cmds:
-      - vad_graphml_to_ttl.py -i ../samples/vad_2/vad_2.graphml -o ../samples/vad_2/vad_2.ttl
+      - python parsers/parse_vad.py -i ../samples/vad_2/vad_2.graphml -o ../samples/vad_2/vad_2.ttl
+
+  validate_vad_ttl:
+    silent: true
+    cmds:
+      - ttl ../samples/vad_2/vad_2.ttl
