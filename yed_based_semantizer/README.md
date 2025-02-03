@@ -18,8 +18,9 @@
 - Открываем редактором файл `samples/vad_2/vad_2.graphml`
 - Добавляем палитру VAD:
   - В меню программы: `Edit - Manage Palette`
+  - Import Section, выбираем файл `yed_based_semantizer/palettes/VAD2.graphml`
   - В панели `Available Palette Sections` выбрать `VAD2`
-  - Кликаем по `Export Session`
+  - Нажимаем на стрелочку '>', чтобы добавить палитру в список отображаемых палитр.
   - `Close` окно Palette Manager
   - Палитра появилась справа на панели `Palette` (проскролльте весь список палитр донизу, чтобы увидеть ее)
   - Теперь в палитре можно выделить текущий элемент и начать редактировать схему
@@ -34,8 +35,9 @@
 
 Для запуска скрипта необходимо иметь
 - установленный [python 3.11](https://www.python.org/downloads/)
+- установленные питоновские библиотеки. В консоли перейдите в папку `yed_based_semantizer` и введите комнаду `pip install -r requirements.txt`
 - утилиту [Taskfile](https://taskfile.dev/installation/)
-  - Для Windows предварительно нужно установить менеджер пакетов [Chocolatey](https://chocolatey.org/install)
+  - В Windows устанавливаем task через команду в консоли `winget install Task.Task`
 - опционально - [валидатор Turtle](https://github.com/IDLabResearch/TurtleValidator)
 
 ### Транслируем диаграмму в RDF (Turtle)
