@@ -62,3 +62,6 @@ RDF будет родным форматом диаграмм, и не буде�
 | Интеграция с Confluence                   |         |     |          |
 | Работает под Linux                        |    ✓    |  ✓  |    ✓     |
 | Работает под Windows                      |    ✓    |  ✓  |          |
+
+## upd1 (bpmbpm) 
+Предлагаю еще "в уме держать" visio и svg. Visio - из всего этого набора - самый крутой редактор + экосистема. По visio пара ссылок: [Surrogate-TM] (https://github.com/Surrogate-TM/surrogate-tm.github.io/tree/master) и [svg-publish](https://unmanagedvisio.com/products/svg-publish). Много Open Source редакторов svg. Да и на .bpmn можно будет попробовать, например, [bpmn view](https://github.com/bzinchenko/bpmnview). 
