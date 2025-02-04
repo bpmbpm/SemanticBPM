@@ -20,7 +20,7 @@ https://habr.com/ru/articles/828266/
 
 в) сборщик репозитария на семантическом движке;
 
-г) publisher (просто статический сайт типа первого ARIS Publisher)
+г) publisher, например, простой статический сайт типа первого [ARIS Web Publisher](http://www.bpm.processoffice.ru)
 
 
 # Ограничения
