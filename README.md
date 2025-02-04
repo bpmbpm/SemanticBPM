@@ -14,7 +14,7 @@ https://habr.com/ru/articles/828266/
 
 Структурно MVP "мини ARIS (VAD)" мог бы выглядеть так: 
 
-а) графический редактор (visio, svg, drawio, yEd) c преднастроенными шаблонами (Visio shapes stencils and templates) или чуть более расширенная штука, например, включающая, верификатор (типа [вкладка Process в Visio](https://surrogate-tm.github.io/visio/2009/09/10/creating-custom-validation-rules-for-visio-2010.htm) или даже "облегченный" Aris Express;
+а) графический редактор (visio, svg, drawio, yEd) c преднастроенными шаблонами (Visio shapes stencils and templates) или чуть более расширенная штука, например, включающая, верификатор (типа [вкладка Process в Visio](https://surrogate-tm.github.io/visio/2009/09/10/creating-custom-validation-rules-for-visio-2010.htm) или даже "облегченный" [Aris Express](https://ariscommunity.com/aris-express);
 
 б) разбор файлов схем в RDF (типа yed_based_semantizer);
 
