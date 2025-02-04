@@ -16,9 +16,9 @@ https://habr.com/ru/articles/828266/
 
 а) графический редактор (visio, svg, drawio, yEd) c преднастроенными шаблонами (Visio shapes stencils and templates) или чуть более расширенная штука, например, включающая, верификатор (типа [вкладка Process в Visio](https://surrogate-tm.github.io/visio/2009/09/10/creating-custom-validation-rules-for-visio-2010.htm) или даже "облегченный" Aris Express;
 
-б) разбор файлов схем в RDF;
+б) разбор файлов схем в RDF (типа yed_based_semantizer);
 
-в) сборщик репозитария на семантическом движке;
+в) сборщик репозитария на семантическом движке, формрование репозитариев схем процессов и их объектов;
 
 г) publisher, например, простой статический сайт типа первого [ARIS Web Publisher](http://www.bpm.processoffice.ru)
 
