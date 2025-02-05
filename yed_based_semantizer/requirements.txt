@@ -1,1 +1,2 @@
 lxml
+tabtree @ git+https://codeberg.org/prozion/tabtree@23b5ee142ffa94439e40b6285ecb52c888518539
