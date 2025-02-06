@@ -3,10 +3,8 @@ Business Process Management software tools - инструменты модели
 # Цель
 Внедрение в инструменты BPM и EA технологий knowledge management на стандартах Linked Data (LD), аналогичного концепту: "MediaWiki vs Semantic MediaWiki".
 Общая концепция BPM vs semanticBPM изложена в статьях :
-- Semantic BPM. Семантика и синтаксис бизнес-процессов
-https://habr.com/ru/articles/795883/  
-- Semantic BPM. Онтологическое моделирование верхнеуровневых процессов. VAD
-https://habr.com/ru/articles/828266/
+- [Semantic BPM. Семантика и синтаксис бизнес-процессов](https://habr.com/ru/articles/795883/)
+- [Semantic BPM. Онтологическое моделирование верхнеуровневых процессов. VAD](https://habr.com/ru/articles/828266/)
 
 Для начала - хотелось бы собрать простой редактор \ паблишер для VAD нотации (с возможностью изменения нотации), в нем составить верхнеуровневую архитектуру бизнес-процессов компании (реальной или вымышленной). Редактор должен как минимум поддерживать семантическое представление и import \ export в RDF. Далее можно развивать этот простой редактор или взять известный BPM инструмент и туда встроить "семантику" (т.е. концепт MediaWiki \ Semantic MediaWiki). Можно взять LD - инструмент и добавить в него поддержку VAD.
 
@@ -43,8 +41,8 @@ https://habr.com/ru/articles/828266/
 Прототип генератора, где вместо RDF используется таблица (из нее формируются триплеты) показан в статье:
 
 [ВРМ. Смарт-инструменты «Таблица -> Схема» для формализации бизнес-процессов. Рестайлинг ARIS SmartDesign](https://habr.com/ru/articles/810851/)
-[exDOTsmartDesign](https://github.com/bpmbpm/exDOTsmartDesign) и 
-[jsDOTsmartDesign](https://github.com/bpmbpm/jsDOTsmartDesign)
+- [exDOTsmartDesign](https://github.com/bpmbpm/exDOTsmartDesign) 
+- [jsDOTsmartDesign](https://github.com/bpmbpm/jsDOTsmartDesign)
 
 Нечто похожее на [PlantUML (RomanSeleznev)](https://habr.com/ru/articles/865140/)
 
@@ -54,8 +52,7 @@ https://habr.com/ru/articles/828266/
 - BPMS - BPM-системы моделирования
 - BPMN - Business Process Model and Notation
 - CMDB - Configuration management database - база данных управления конфигурацией \ конфигурационных единиц (CI = оборудование, ПО и др.), т.е. [репозиторий, который содержит необходимую информацию об аппаратных и программных компонентах ИТ-инфраструктуры](https://en.wikipedia.org/wiki/Configuration_management_database)
-- EA - Enterprise Architecture - Архитектура предприятия как в широком смысле, так и в узком - IT архитектура компании
-  https://habr.com/ru/articles/726428/
+- EA - Enterprise Architecture - Архитектура предприятия как в широком смысле, так и в узком - IT архитектура компании. Пример [Простая Enterprise Architecture](  https://habr.com/ru/articles/726428/)
 - EPC - Event-Driven Process Chain, цепочка процессов, управляемая событиями (диаграмма) http://sewiki.ru/Event-Driven_Process_Chain
 - LD - Linked Data, исторически набор лучших практик для публикации и связывании данных в интернете, который используется сейчас и для локальных задач
 - RDF - Resource Description Framework, графовая модель описания сложных систем, в которой элементы и связи в системе универсально называются "ресурсами", при этом элементам соответствуют вершины графа, а связям - ребра.
