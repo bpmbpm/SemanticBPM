@@ -42,12 +42,11 @@ https://habr.com/ru/articles/828266/
 Задаются правила формирования схемы, например, слева – направо, число VAD элементов в длину не более 6 (автоперенос седьмого на следующую строку) и т.п.
 Прототип генератора, где вместо RDF используется таблица (из нее формируются триплеты) показан в статье:
 
-ВРМ. Смарт-инструменты «Таблица -> Схема» для формализации бизнес-процессов. Рестайлинг ARIS SmartDesign
-https://habr.com/ru/articles/810851/
-https://github.com/bpmbpm/exDOTsmartDesign
-https://bpmbpm.github.io/jsDOTsmartDesign/jsDOTsmartDesign.html
+[ВРМ. Смарт-инструменты «Таблица -> Схема» для формализации бизнес-процессов. Рестайлинг ARIS SmartDesign](https://habr.com/ru/articles/810851/)
+[exDOTsmartDesign](https://github.com/bpmbpm/exDOTsmartDesign) и 
+[jsDOTsmartDesign](https://github.com/bpmbpm/jsDOTsmartDesign)
 
-Нечто похожее на PlantUML (RomanSeleznev) https://habr.com/ru/articles/865140/
+Нечто похожее на [PlantUML (RomanSeleznev)](https://habr.com/ru/articles/865140/)
 
 # Используемые термины и сокращения
 
