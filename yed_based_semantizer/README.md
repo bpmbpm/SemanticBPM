@@ -69,3 +69,13 @@
 Инфо по Менеджеру палитры (yEd) см. https://yed.yworks.com/support/manual/palette_manager.html
 
 Есть вариант прямой загрузки Visio Stencil: Edit \ Palete Manager \ Import selection и там выбор .vdx .vsx
+
+### upd1 bpmbpm. 
+MyConfig: Python 3.13,  pip install -r requirements.txt; winget install Task.Task
+
+Run:
+`cd C:\Temp1\`
+`git clone https://github.com/bpmbpm/SemanticBPM.git`
+`cd C:\Temp1\SemanticBPM\yed_based_semantizer`
+`task parse_vad`
+ 
