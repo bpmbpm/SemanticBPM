@@ -73,4 +73,4 @@ visio и svg. Visio - из всего этого набора - самый кр�
 .bpmn и archi
 К распространенному формату .bpmn много инструментов (моделеров), есть viewer, например, [bpmn view](https://github.com/bzinchenko/bpmnview). 
 
-[Archi](https://www.archimatetool.com/)
+[Archi](https://www.archimatetool.com/) - Open Source инструмент моделирования для создания моделей в нотации ArchiMate.
