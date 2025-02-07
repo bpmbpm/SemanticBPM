@@ -66,7 +66,7 @@ RDF будет родным форматом диаграмм, и не буде�
 ## upd1 (bpmbpm) 
 Предлагаю еще "в уме держать" несколько форматов: 
 - visio и svg.
-Visio - из всего этого набора - самый крутой редактор + экосистема (мастера, штатная связка с excel, [ODBC](https://surrogate-tm.github.io/own/ODBC.pdf) и т.п.). По visio пара ссылок: [Surrogate-TM](https://github.com/Surrogate-TM/surrogate-tm.github.io/tree/master) и [svg-publish](https://unmanagedvisio.com/products/svg-publish). Ru-заменители visio на [arppsoft](https://catalog.arppsoft.ru/replacement/6087713). 
+Visio - из всего этого набора - самый крутой редактор + экосистема (мастера, штатная связка с excel, [ODBC](https://surrogate-tm.github.io/own/ODBC.pdf) и т.п.). По visio пара ссылок: [Surrogate-TM](https://github.com/Surrogate-TM/surrogate-tm.github.io/tree/master) и [svg-publish](https://unmanagedvisio.com/products/svg-publish). Ru-заменители visio на [arppsoft](https://catalog.arppsoft.ru/replacement/6087713). Ищу Open Source библиотеки для визуализации файлов visio в web-приложении (on-premise).
 Много Open Source редакторов svg. 
 - .bpmn и archi. 
 К распространенному формату .bpmn много инструментов (моделеров), есть viewer, например, [bpmn view](https://github.com/bzinchenko/bpmnview). 
