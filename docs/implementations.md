@@ -70,4 +70,4 @@ Visio - из всего этого набора - самый крутой ред
 Много Open Source редакторов svg. 
 - .bpmn и archi. 
 К распространенному формату .bpmn много инструментов (моделеров), есть viewer, например, [bpmn view](https://github.com/bzinchenko/bpmnview). 
-[Archi](https://www.archimatetool.com/) - Open Source инструмент моделирования для создания моделей в нотации ArchiMate. В нотации есть блок для моделирования бизнес-процессов.
+Open Source инструмент моделирования [Archi](https://www.archimatetool.com/) для создания моделей в нотации ArchiMate. В нотации есть блок для моделирования бизнес-процессов.
