@@ -70,7 +70,7 @@
 
 Есть вариант прямой загрузки Visio Stencil: Edit \ Palete Manager \ Import selection и там выбор .vdx .vsx
 
-### upd1 bpmbpm
+## upd1 bpmbpm
 
 MyConfig: Python 3.13,  pip install -r requirements.txt; winget install Task.Task
 
