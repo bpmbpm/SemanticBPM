@@ -65,11 +65,8 @@ RDF будет родным форматом диаграмм, и не буде�
 
 ## upd1 (bpmbpm) 
 Предлагаю еще "в уме держать" несколько форматов: 
-- visio и svg. Visio - из всего этого набора - самый крутой редактор + экосистема (мастера, штатная связка с excel, [ODBC](https://surrogate-tm.github.io/own/ODBC.pdf) и т.п.). По visio пара ссылок: [Surrogate-TM](https://github.com/Surrogate-TM/surrogate-tm.github.io/tree/master) и [svg-publish](https://unmanagedvisio.com/products/svg-publish). Ru-заменители visio на [arppsoft](https://catalog.arppsoft.ru/replacement/6087713)
-
+- visio и svg. Visio - из всего этого набора - самый крутой редактор + экосистема (мастера, штатная связка с excel, [ODBC](https://surrogate-tm.github.io/own/ODBC.pdf) и т.п.). По visio пара ссылок: [Surrogate-TM](https://github.com/Surrogate-TM/surrogate-tm.github.io/tree/master) и [svg-publish](https://unmanagedvisio.com/products/svg-publish). Ru-заменители visio на [arppsoft](https://catalog.arppsoft.ru/replacement/6087713). 
 Много Open Source редакторов svg. 
-
 - .bpmn и archi
 К распространенному формату .bpmn много инструментов (моделеров), есть viewer, например, [bpmn view](https://github.com/bzinchenko/bpmnview). 
-
 [Archi](https://www.archimatetool.com/) - Open Source инструмент моделирования для создания моделей в нотации ArchiMate. В нотации есть блок для моделирования бизнес-процессов.
