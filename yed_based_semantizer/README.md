@@ -72,7 +72,7 @@
 
 ## upd1 bpmbpm
 
-MyConfig: Python 3.13,  pip install -r requirements.txt; winget install Task.Task
+MyConfig: Python 3.13 + `pip install -r requirements.txt` `winget install Task.Task`
 
 Run:
 `cd C:\Temp1\`
