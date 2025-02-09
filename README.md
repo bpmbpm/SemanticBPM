@@ -48,7 +48,8 @@ Business Process Management software tools - инструменты модели
 - [jsDOTsmartDesign](https://github.com/bpmbpm/jsDOTsmartDesign)
 
 Нечто похожее на [PlantUML (RomanSeleznev)](https://habr.com/ru/articles/865140/)
-
+# Выбор редактора
+[Выбор графического редактора диаграмм](https://github.com/bpmbpm/SemanticBPM/blob/main/docs/implementations.md)
 # Используемые термины и сокращения
 
 - BPM - Business Process Management
