@@ -72,4 +72,4 @@ Visio - из всего этого набора - самый крутой ред
 - .bpmn.
 К распространенному формату .bpmn много инструментов (моделеров), есть viewer, например, [bpmn view](https://github.com/bzinchenko/bpmnview). 
 - archi.
-Open Source инструмент моделирования [Archi](https://www.archimatetool.com/) для создания моделей в нотации ArchiMate. В нотации есть блок для моделирования бизнес-процессов.
+Open Source инструмент моделирования [Archi](https://www.archimatetool.com/) для создания моделей в нотации ArchiMate. В нотации есть блок для моделирования бизнес-процессов. По аналогии с MidiaWiki -> semantic MediaWiki [SMW](https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki) может быть построен semantic Archi (плюс плагины: сервеная частью, publisher и т.п.). 
