@@ -58,7 +58,7 @@ Business Process Management software tools - инструменты модели
 - CMDB - Configuration management database - база данных управления конфигурацией \ конфигурационных единиц (CI = оборудование, ПО и др.), т.е. [репозиторий, который содержит необходимую информацию об аппаратных и программных компонентах ИТ-инфраструктуры](https://en.wikipedia.org/wiki/Configuration_management_database)
 - EA - Enterprise Architecture - Архитектура предприятия как в широком смысле, так и в узком - IT архитектура компании. Пример [Простая Enterprise Architecture](  https://habr.com/ru/articles/726428/)
 - EPC - Event-Driven Process Chain, цепочка процессов, управляемая событиями (диаграмма) http://sewiki.ru/Event-Driven_Process_Chain
-- LD - Linked Data, исторически набор лучших практик для публикации и связывании данных в интернете, который используется сейчас и для локальных задач
+- LD - Linked Data, исторически набор лучших практик для публикации и связывании данных в интернете, который используется сейчас и для локальных задач. Некоторые [LD-проекты](https://github.com/bpmbpm/doc/blob/main/README.md#ld-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B)
 - RDF - Resource Description Framework, графовая модель описания сложных систем, в которой элементы и связи в системе универсально называются "ресурсами", при этом элементам соответствуют вершины графа, а связям - ребра.
 - SVG - Scalable Vector Graphics, XML формат для представления векторной графики.
 - VAD - Value Added Chain диаграмма
