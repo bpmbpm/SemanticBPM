@@ -14,9 +14,11 @@ Node.js + [rdflib.js](https://linkeddata.github.io/rdflib.js/doc/index.html) (н
 Result: `http://example.org/EKG/all_process#Process_1_2`
 ## Пояснения
 SPARQL запрос спрашивает: Выведи название (id) процесса (узла) за которым следует (relationship «vad:hasNext») процесс с именем \ id Process_1_3 («:Process_1_3»):
-`PREFIX : <http://example.org/EKG/all_process#>
-PREFIX vad: <http://example.org/semanter/vad#>
-SELECT DISTINCT ?s1 WHERE { ?s1 vad:hasNext :Process_1_3 .}`  
+`PREFIX : <http://example.org/EKG/all_process#>`
+
+`PREFIX vad: <http://example.org/semanter/vad#>`
+
+`SELECT DISTINCT ?s1 WHERE { ?s1 vad:hasNext :Process_1_3 .}`  
 
 В SPARQL запросе нужно из .ttl (turtle) у префиксов убрать первую "@" и последжнюю ".".
 Результат запроса будет «Process_1_2», полный адрес \ url \ iri = `http://example.org/EKG/all_process#Process_1_2`
