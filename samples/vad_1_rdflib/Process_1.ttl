@@ -12,19 +12,20 @@
 <http://example.org/semanter/vad>
 	rdfs:type owl:Ontology .
 
-:Process_1 rdfs:type vad:ProcessType .
+:Process_1 
+        rdfs:type vad:ProcessType .
 
 :Process_1_1
 	rdfs:type vad:ProcessType ;
-    vad:hasParent :Process_1 ;
+        vad:hasParent :Process_1 ;
 	vad:hasNext :Process_1_2 .
 
 :Process_1_2
 	rdfs:type vad:ProcessType ;
-    vad:hasParent :Process_1 ;
+        vad:hasParent :Process_1 ;
 	vad:hasNext :Process_1_3 .
 
 :Process_1_3
 	rdfs:type vad:ProcessType ;
-    vad:hasParent :Process_1 .
+        vad:hasParent :Process_1 .
 
