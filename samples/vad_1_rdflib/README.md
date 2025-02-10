@@ -10,7 +10,8 @@ Node.js + rdflib.js (не путать с одноименной Python-библ
 По сути "http://example.org/EKG" - это сайт (домен) корпоративного графа знаний компании, его адрес можно заменить на localhost, а при развертывании web-сервера прописать нужное доменное имя.
 ## Run 
 `node exSparql_1.js`
-Result: http://example.org/EKG/all_process#Process_1_2  
+
+Result: <http://example.org/EKG/all_process#Process_1_2>
 ## Пояснения
 SPARQL запрос спрашивает: Выведи название (id) процесса (узла) за которым следует (relationship «vad:hasNext») процесс с именем \ id Process_1_3 («:Process_1_3»).
 Результат запроса будет «Process_1_2», полный адрес \ url \ iri = "http://example.org/EKG/all_process#Process_1_2"
