@@ -9,4 +9,4 @@
 
 Плюс классическое меню.
 
-За прототип беоется: publisher, например, простой статический сайт типа первого [ARIS Web Publisher](http://www.bpm.processoffice.ru/). 
+За прототип берется: publisher, например, простой статический сайт типа первого [ARIS Web Publisher](http://www.bpm.processoffice.ru/). 
