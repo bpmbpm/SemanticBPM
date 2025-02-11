@@ -57,6 +57,9 @@ Business Process Management software tools - инструменты модели
 ## Кодовые ветки
 - [Парсер graphml диаграмм](https://github.com/bpmbpm/SemanticBPM/tree/main/yed_based_semantizer)
 - [Пример SPARQL запроса на rdflib.js](https://github.com/bpmbpm/SemanticBPM/tree/main/samples/vad_1_rdflib)
+## Связанные источники
+- [парсер Semanter, prozion](https://codeberg.org/prozion/semanter)
+- [GUI проекта, Surrogate-TM](https://github.com/Surrogate-TM/SemanticBPM/tree/main/gui)
 # Используемые термины и сокращения
 - BPM - Business Process Management
 - BPMS - BPM-системы моделирования
