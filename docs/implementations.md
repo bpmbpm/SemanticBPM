@@ -17,6 +17,7 @@
 - Затрудненный парсинг xml-сериализаций диаграмм, так как объекты привязываются друг другу геометрически, а не логически.
 - Как задать пользовательские параметры для элементов и семейств элементов?
 - Редактор не open source
+
 Пример сборки редактора [jgraph.github.io](https://jgraph.github.io/mxgraph/javascript/examples/editors/workfloweditor.html) ; [jgraph tutorial](https://jgraph.github.io/mxgraph/docs/tutorial.html)	
 
 ## yEd based
