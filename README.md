@@ -77,5 +77,6 @@ Business Process Management software tools - инструменты модели
 # Разное
 ## Документы
 [Базовый doc-склад](https://github.com/bpmbpm/doc)
+## [FAQ](https://github.com/bpmbpm/doc/blob/main/FAQ/FAQsemBPM.md#faq-%D0%BA-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83-semantic-bpm)
 ## Приглашение 
 Желающие (сделать мир BPM лучше) поучаствовать на общественных началах в этом проекте (желательно js \ python) [пишите](https://t.me/D_m_itr).
