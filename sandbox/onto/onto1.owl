@@ -53,20 +53,20 @@
     
 
 
-    <!-- http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#No_Name -->
+    <!-- http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasNext -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#No_Name">
-        <rdfs:label>No Name</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasNext">
+        <rdfs:label>hasNext</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#No_Name_SjocNG -->
+    <!-- http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasNext_NS9b9F -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#No_Name_SjocNG">
-        <rdfs:label>No Name</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasNext_NS9b9F">
+        <rdfs:label>hasNext</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -93,20 +93,20 @@
     
 
 
-    <!-- http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasParent_IvjSpV -->
+    <!-- http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasParent_IrIH2B -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasParent_IvjSpV">
+    <owl:DatatypeProperty rdf:about="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasParent_IrIH2B">
         <rdfs:comment></rdfs:comment>
         <rdfs:label>hasParent</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasParent_VctQEM -->
+    <!-- http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasParent_zvHrQZ -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasParent_VctQEM">
+    <owl:DatatypeProperty rdf:about="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#hasParent_zvHrQZ">
         <rdfs:comment></rdfs:comment>
         <rdfs:label>hasParent</rdfs:label>
     </owl:DatatypeProperty>
@@ -152,9 +152,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#Process_1_1">
         <rdf:type rdf:resource="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#ProcessType"/>
-        <No_Name rdf:resource="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#Process_1_2"/>
+        <hasNext rdf:resource="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#Process_1_2"/>
         <hasParent>Process_1</hasParent>
-        <rdfs:comment></rdfs:comment>
+        <rdfs:comment>
+</rdfs:comment>
         <rdfs:label>Process_1_1</rdfs:label>
     </owl:NamedIndividual>
     
@@ -165,8 +166,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#Process_1_2">
         <rdf:type rdf:resource="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#ProcessType"/>
-        <No_Name_SjocNG rdf:resource="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#Process_1_3"/>
-        <hasParent_VctQEM>Process_1</hasParent_VctQEM>
+        <hasNext_NS9b9F rdf:resource="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#Process_1_3"/>
+        <hasParent_zvHrQZ>Process_1</hasParent_zvHrQZ>
         <rdfs:label>Process_1_2</rdfs:label>
     </owl:NamedIndividual>
     
@@ -177,7 +178,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#Process_1_3">
         <rdf:type rdf:resource="http://www.ontonet.ru/ontology/realm/d4a500e1-133b-4062-8e92-6c498d431db6#ProcessType"/>
-        <hasParent_IvjSpV>Process_1</hasParent_IvjSpV>
+        <hasParent_IrIH2B>Process_1</hasParent_IrIH2B>
         <rdfs:label>Process_1_3</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
