@@ -16,7 +16,7 @@ Process_1_onto.ttl: значимых – только три последних 
   - a owl:NamedIndividual, ns0:ProcessType ;
   - ns0:hasNext_NS9b9F ns0:Process_1_3 ;
   - ns0:hasParent_zvHrQZ "Process_1" ;
-<img src="onto2.png" width="600" />
+<img src="onto2.png" width="900" />
 
 Что понятно: Шаблонизация задается как отношение: ns0:Process_1_2 a ns0:ProcessType .
 
