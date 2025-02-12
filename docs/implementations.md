@@ -17,6 +17,7 @@
 - Затрудненный парсинг xml-сериализаций диаграмм, так как объекты привязываются друг другу геометрически, а не логически.
 - Как задать пользовательские параметры для элементов и семейств элементов?
 - Редактор не open source
+Пример сборки редактора [jgraph.github.io](https://jgraph.github.io/mxgraph/javascript/examples/editors/workfloweditor.html) ; [jgraph tutorial](https://jgraph.github.io/mxgraph/docs/tutorial.html)	
 
 ## yEd based
 
@@ -66,11 +67,15 @@ RDF будет родным форматом диаграмм, и не буде�
 ## upd1 (bpmbpm) 
 Предлагаю еще "в уме держать" несколько форматов: 
 - visio. 
-Visio - из всего этого набора - самый крутой редактор + экосистема (мастера, штатная связка с excel, [ODBC](https://surrogate-tm.github.io/own/ODBC.pdf) и т.п.). По visio пара ссылок: [Surrogate-TM](https://github.com/Surrogate-TM/surrogate-tm.github.io/tree/master) и [svg-publish](https://unmanagedvisio.com/products/svg-publish). Ru-заменители visio на [arppsoft](https://catalog.arppsoft.ru/replacement/6087713). Ищу Open Source библиотеки для визуализации файлов visio в web-приложении (on-premise).
-Создание rdf из vad на visio начал формализовать в [vad to rdf](https://github.com/bpmbpm/vadtordf).
+Visio - из всего этого набора - самый крутой редактор + экосистема (мастера, штатная связка с excel, [ODBC](https://surrogate-tm.github.io/own/ODBC.pdf) и т.п.). По visio ссылоки:
+-- [Surrogate-TM](https://github.com/Surrogate-TM/surrogate-tm.github.io/tree/master) и [svg-publish](https://unmanagedvisio.com/products/svg-publish).
+-- Ru-заменители visio на [arppsoft](https://catalog.arppsoft.ru/replacement/6087713)
+-- [Альтернатива Visio для разработчиков](https://visguy.com/vgforum/index.php?topic=9038.0)
+-- [VSD viewer](https://www.fviewer.com/view-vsd)  
+- Создание rdf из vad на visio начал формализовать в [vad to rdf](https://github.com/bpmbpm/vadtordf). Ищу Open Source библиотеки для визуализации файлов visio в web-приложении (on-premise).
 - svg.
-Есть много Open Source редакторов svg. 
-- .bpmn.
+Есть много Open Source редакторов svg: [editsvgcode](https://editsvgcode.com/)	; [yqnn](https://yqnn.github.io/svg-path-editor/) ; 
+- ".bpmn".
 К распространенному формату .bpmn много инструментов (моделеров), есть viewer, например, [bpmn view](https://github.com/bzinchenko/bpmnview). 
 - archi.
 Open Source инструмент моделирования [Archi](https://www.archimatetool.com/) для создания моделей в нотации ArchiMate. В нотации есть блок для моделирования бизнес-процессов. По аналогии с MidiaWiki -> semantic MediaWiki [SMW](https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki) может быть построен semantic Archi (плюс плагины: сервеная частью, publisher и т.п.). Это аналогичный нашему "BPM -> Semantic BPM" концепт: Enterprise Architecture -> [Semantic architecture](https://enterprise-knowledge.com/what-is-a-semantic-architecture-and-how-do-i-build-one/) или [semantic EAM](https://d-nb.info/1206879238/34).
