@@ -69,11 +69,11 @@ RDF будет родным форматом диаграмм, и не буде�
 Предлагаю еще "в уме держать" несколько форматов: 
 * visio. 
 Visio - из всего этого набора - самый крутой редактор + экосистема (мастера, штатная связка с excel, [ODBC](https://surrogate-tm.github.io/own/ODBC.pdf) и т.п.). По visio ссылоки:
-- [Surrogate-TM](https://github.com/Surrogate-TM/surrogate-tm.github.io/tree/master) и [svg-publish](https://unmanagedvisio.com/products/svg-publish).
-- Ru-заменители visio на [arppsoft](https://catalog.arppsoft.ru/replacement/6087713)
-- [Альтернатива Visio для разработчиков](https://visguy.com/vgforum/index.php?topic=9038.0)
-- [VSD viewer](https://www.fviewer.com/view-vsd)  
-- Создание rdf из vad на visio начал формализовать в [vad to rdf](https://github.com/bpmbpm/vadtordf). Ищу Open Source библиотеки для визуализации файлов visio в web-приложении (on-premise).
++ [Surrogate-TM](https://github.com/Surrogate-TM/surrogate-tm.github.io/tree/master) и [svg-publish](https://unmanagedvisio.com/products/svg-publish).
++ Ru-заменители visio на [arppsoft](https://catalog.arppsoft.ru/replacement/6087713)
++ [Альтернатива Visio для разработчиков](https://visguy.com/vgforum/index.php?topic=9038.0)
++ [VSD viewer](https://www.fviewer.com/view-vsd)  
++ Создание rdf из vad на visio начал формализовать в [vad to rdf](https://github.com/bpmbpm/vadtordf). Ищу Open Source библиотеки для визуализации файлов visio в web-приложении (on-premise).
 * svg.
 Есть много Open Source редакторов svg: [editsvgcode](https://editsvgcode.com/)	; [yqnn](https://yqnn.github.io/svg-path-editor/) ; 
 * ".bpmn".
