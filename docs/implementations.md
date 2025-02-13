@@ -75,7 +75,8 @@ Visio - из всего этого набора - самый крутой ред
 4. [VSD viewer](https://www.fviewer.com/view-vsd)  
 5. Создание rdf из vad на visio начал формализовать в [vad to rdf](https://github.com/bpmbpm/vadtordf). Ищу Open Source библиотеки для визуализации файлов visio в web-приложении (on-premise).
 * svg.
-Есть много Open Source редакторов svg: [editsvgcode](https://editsvgcode.com/)	; [yqnn](https://yqnn.github.io/svg-path-editor/) ; 
+Есть много Open Source редакторов svg: [editsvgcode](https://editsvgcode.com/)	; [yqnn](https://yqnn.github.io/svg-path-editor/) ;
+[Основная проблема target & source](https://github.com/bpmbpm/SemanticBPM?tab=readme-ov-file#%D0%BD%D0%B5%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B5-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B) ;
 * ".bpmn".
 К распространенному формату .bpmn много инструментов (моделеров), есть viewer, например, [bpmn view](https://github.com/bzinchenko/bpmnview). 
 * archi.
