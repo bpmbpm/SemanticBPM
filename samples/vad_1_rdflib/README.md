@@ -5,7 +5,7 @@ Node.js + [rdflib.js](https://linkeddata.github.io/rdflib.js/doc/index.html) (н
 `npm add @babel/runtime`
 ## Файл хх.ttl
 Файл Process_1.ttl - это файл, полученный после парсинга графической схемы процесса «Process_1» в каком либо формате (.drawio, .graphml).
-Считаем, что все схемы процессов (файлы rdf\ttl, схем процессов и т.п.) размещены в папке EKG/all_process (EKG - Enterprise Knowledge Graph): Process_1, Process_2 и т.д., т.е. это все процессы, имущие детализацию в виде схемы (diagram).
+Считаем, что все схемы процессов (файлы rdf\ttl, схем процессов и т.п.) размещены в папке EKG/all_processes (EKG - Enterprise Knowledge Graph): Process_1, Process_2 и т.д., т.е. это все процессы, имущие детализацию в виде схемы (diagram).
 
 По сути `http://example.org/EKG` - это сайт (домен) корпоративного графа знаний компании, его адрес можно заменить на localhost, а при развертывании web-сервера прописать нужное доменное имя.
 ## Run 
