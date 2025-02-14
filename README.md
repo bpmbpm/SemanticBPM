@@ -1,7 +1,8 @@
 # SemanticBPM
 Business Process Management software tools - инструменты моделирования верхнеуровневых и детальных процессов, т.е. классические BPM-системы типа ARIS. SemanticBPM - это проект внедрения в инструменты BPM и EA (от бизнес-архитектуры Enterprise Architecture до CMDB) технологий knowledge management на стандартах Linked Data (LD).
 
-Если Semantic BPM - еще достаточно редкое направление, то его "близнец" - Semantic ЕА более распространенное словосочетание, включая: [Enterprise Knowledge](https://enterprise-knowledge.com/building-a-semantic-enterprise-architecture/) (знания они по определению семантические), [enterprise information architecture](https://blog.metaphacts.com/how-a-semantic-model-can-elevate-your-enterprise-information-architecture). Семантические BPM и EA основаны на технологиях Semantic Web: [Using Semantic Web Technologies for Enterprise Architecture Analysis](https://www.semanticscholar.org/paper/Using-Semantic-Web-Technologies-for-Enterprise-Osenberg-Langermeier/a2b4c416d100eb4f7dad68a49ee2cad3974013e0).
+Если Semantic BPM - еще достаточно редкое направление, то его "близнец" - Semantic ЕА более распространенное словосочетание, включая: [Enterprise Knowledge](https://enterprise-knowledge.com/building-a-semantic-enterprise-architecture/) (знания они по определению семантические), [enterprise information architecture](https://blog.metaphacts.com/how-a-semantic-model-can-elevate-your-enterprise-information-architecture), а также EKG (Enterprise Knowledge Graph) и т.п.  
+Семантические BPM и EA основаны на технологиях Semantic Web: [Using Semantic Web Technologies for Enterprise Architecture Analysis](https://www.semanticscholar.org/paper/Using-Semantic-Web-Technologies-for-Enterprise-Osenberg-Langermeier/a2b4c416d100eb4f7dad68a49ee2cad3974013e0).
 
 # Цель
 Внедрение в инструменты BPM и EA технологий knowledge management на стандартах Linked Data (LD), аналогичного концепту: "MediaWiki vs Semantic MediaWiki".
@@ -68,7 +69,8 @@ Business Process Management software tools - инструменты модели
 - BPMN - Business Process Model and Notation
 - CMDB - Configuration management database - база данных управления конфигурацией \ конфигурационных единиц (CI = оборудование, ПО и др.), т.е. [репозиторий, который содержит необходимую информацию об аппаратных и программных компонентах ИТ-инфраструктуры](https://en.wikipedia.org/wiki/Configuration_management_database)
 - EA - Enterprise Architecture - Архитектура предприятия как в широком смысле, так и в узком - IT архитектура компании. Пример [Простая Enterprise Architecture](  https://habr.com/ru/articles/726428/)
-- EPC - Event-Driven Process Chain, цепочка процессов, управляемая событиями (диаграмма) http://sewiki.ru/Event-Driven_Process_Chain
+- [EPC - Event-Driven Process Chain, цепочка процессов, управляемая событиями (диаграмма)](http://sewiki.ru/Event-Driven_Process_Chain)
+- [EKG - Enterprise Knowledge Graph](https://github.com/bpmbpm/doc/blob/main/README.md#enterprise-knowledge-graph)
 - LD - Linked Data, исторически набор лучших практик для публикации и связывании данных в интернете, который используется сейчас и для локальных задач. Некоторые [LD-проекты](https://github.com/bpmbpm/doc/blob/main/README.md#ld-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B)
 - RDF - Resource Description Framework, графовая модель описания сложных систем, в которой элементы и связи в системе универсально называются "ресурсами", при этом элементам соответствуют вершины графа, а связям - ребра. [rdf11-primer](https://www.w3.org/TR/rdf11-primer/)
 - SVG - Scalable Vector Graphics, XML формат для представления векторной графики.
