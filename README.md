@@ -21,7 +21,7 @@ Business Process Management software tools - инструменты модели
 - сборщик репозитария на семантическом движке, формрование репозитариев схем процессов и их объектов;
 - publisher, например, простой статический сайт типа первого [ARIS Web Publisher](http://www.bpm.processoffice.ru)
 
-В итоге получим минимальный инструмент Процессного офиса, позволяющий формализовать процессную архитектуру (процессы верхнего уровня) компании любого размера. Графическая семантическая wiki, построенная на стандартах Linked Data и концепции ARIS: схемы процессов \ орг-(и др.)структур + репозитарий процессов и их объектов. 
+В итоге получим минимальный инструмент Процессного офиса, позволяющий формализовать процессную архитектуру (процессы верхнего уровня) компании любого размера. Графическая семантическая wiki, построенная на стандартах Linked Data и концепции ARIS: схемы процессов \ орг-(и др.)структур + репозитарий процессов и их объектов. Подробнее по [MVP (вариант)](https://github.com/bpmbpm/SemanticBPM/blob/main/ontology/smer44/README.md#%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%B0%D1%8F-%D0%BF%D1%80%D0%BE%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5-%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D0%BD%D0%BE%D0%B9-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8-%D0%B7%D0%B0%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-aris-%D1%82%D0%BE%D1%87%D0%BD%D0%B5%D0%B5-publisher-%D0%B4%D0%BB%D1%8F-vad-diagram-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-rdf-%D1%81-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%BE%D0%B9-%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B2-%D0%BD%D0%B0%D1%88-bpms-sparql)
 
 # Ограничения
 Вопрос: Что даст построение BPMS (BPM-системы моделирования) на стандартах LD для топ-менеджеров и рядовых бизнес-пользователей – читателей схем процессов?
@@ -80,5 +80,6 @@ Business Process Management software tools - инструменты модели
 ## Документы
 [Базовый doc-склад](https://github.com/bpmbpm/doc)
 ## [FAQ](https://github.com/bpmbpm/doc/blob/main/FAQ/FAQsemBPM.md#faq-%D0%BA-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83-semantic-bpm)
+## [TODO](https://github.com/bpmbpm/SemanticBPM/blob/main/misc/TODOsemBPM.md)
 ## Приглашение 
 Желающие (сделать мир BPM лучше) поучаствовать на общественных началах в этом проекте (желательно js \ python) [пишите](https://t.me/D_m_itr).
