@@ -51,7 +51,7 @@ Market Adaptability: Enhances the ability to respond to market changes and seize
 
 Ссылки:
 - [В толковый словарь Business Process Management: Бизнес-функция vs Бизнес-процесс](https://habr.com/ru/users/itGuevara/articles/)
-- [ARIS Method_Manual.pdf, п 3.1.1 Function tree, стр. 12](https://github.com/bpmbpm/SemanticBPM/edit/main/ontology/smer44/concepts.md)
+- [ARIS Method_Manual.pdf, п 3.1.1 Function tree, стр. 12](https://github.com/bpmbpm/doc/blob/main/BPM/ARIS/SCHEER/BASE/10-0sr6_Method_Manual.pdf)
 - [из Надежность в процессах](https://habr.com/ru/articles/844992/):
 _В общем случае, синонимы: делание, процесс, операция, функция, действие, активность (activity)_
 <img src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/551/150/be3/551150be35284815480f75811b2129f0.png" width="600" />
