@@ -5,7 +5,7 @@
 
 [Брейншторм в GPT] (https://chatgpt.com/share/67afd750-4098-8004-96b8-396059c26905)
 
-###BusinessProcess Бизнес процесс
+### BusinessProcess Бизнес процесс
 
 Некий подкласс События/Процесса (occurent) или process в SUMO
 
@@ -45,3 +45,14 @@ Alignment with Vision: Directly supports long-term strategic objectives.
 Innovation and Differentiation: Creates unique capabilities that set the organization apart.
 Market Adaptability: Enhances the ability to respond to market changes and seize emerging opportunities.
         Example: A digital transformation process that redefines business models, opens new market opportunities, and secures a sustainable competitive advantage.
+
+## upd1 bpmbpm
+Бизнес-процесс = процесс
+
+Ссылки:
+- [В толковый словарь Business Process Management: Бизнес-функция vs Бизнес-процесс](https://habr.com/ru/users/itGuevara/articles/)
+- [из Надежность в процессах](https://habr.com/ru/articles/844992/):
+_В общем случае, синонимы: делание, процесс, операция, функция, действие, активность (activity)_
+<img src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/551/150/be3/551150be35284815480f75811b2129f0.png" width="600" />
+  
+
