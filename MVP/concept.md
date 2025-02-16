@@ -2,7 +2,7 @@
 Информация:
 1. [коротко из Цели проекта](https://github.com/bpmbpm/SemanticBPM/tree/main?tab=readme-ov-file#mvp)
 2. [образ MVP в upd1 к ontology/smer44](https://github.com/bpmbpm/SemanticBPM/blob/main/ontology/smer44/README.md#mvp). К этому повествованию: В MVP я бы сделал упор (на старте проекта) на максимальное упрощение и использование уже готовых компонентов.
-Условно говоря: "обучить" бизнес-процессы маскироваться в rdf триплеты: rdf-based навигатор по процессам и их элементам (в рамках ARIS - системы). [VAD](https://github.com/bpmbpm/SemanticBPM/blob/main/docs/VAD/aboutVAD.md)  
+Условно говоря: "обучить" бизнес-процессы маскироваться в rdf триплеты: rdf-based навигатор по процессам и их элементам (в рамках ARIS - системы).  
 Бизнес-процессы - громкое название, но на примере VAD оно очень узкое и конкретное [VAD-процесс](https://github.com/bpmbpm/SemanticBPM/blob/main/ontology/smer44/concepts.md#upd1-bpmbpm), см. [примеры VAD](https://github.com/bpmbpm/SemanticBPM/blob/main/docs/VAD/aboutVAD.md)
 
 Уточнение "Точнее за каждой кнопкой в GUI будет стоять SPARQL – запрос («что отображать») и конечно управление нужными окошками («как отображать»)" может включать:
