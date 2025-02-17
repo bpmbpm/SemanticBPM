@@ -8,8 +8,8 @@
 ## Посмотреть:
 ### [Работа с графическим семантическим движком](https://github.com/bpmbpm/SemanticBPM/blob/main/sandbox/onto_starter.md)
 
-## Для bpmbpm:
-### ...
+## TODO bpmbpm:
+...
 
 Можно добавлять свои To-Do List ...
 
