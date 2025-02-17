@@ -15,7 +15,7 @@
 # Работа с графическим семантическим движком
 После выполнения пунктов 3-6, открывается окно **tk**.    
 ![Окно tk](https://github.com/bpmbpm/SemanticBPM/blob/main/sandbox/onto/gse.png)    
-a. В появившемся окне **tk**, выберите меню **File** -> **Open**
-b. В окне проводника выберите образцы схем в папке `<путь>\graph-semantical-engine-main\graph-semantical-engine-main\gse\examples`
-c. Горячие клавиши для основных манипуляций с элементами схемы можно найти в меню **Help** -> **Keymap**
-   ![](https://i.imgur.com/BF3CcGy.png)
+a. В появившемся окне **tk**, выберите меню **File** -> **Open**    
+b. В окне проводника выберите образцы схем в папке `<путь>\graph-semantical-engine-main\graph-semantical-engine-main\gse\examples`    
+c. Горячие клавиши для основных манипуляций с элементами схемы можно найти в меню **Help** -> **Keymap**    
+   ![](https://i.imgur.com/BF3CcGy.png)    
