@@ -9,9 +9,9 @@
 ### [Работа с графическим семантическим движком](https://github.com/bpmbpm/SemanticBPM/blob/main/sandbox/onto_starter.md)
 
 ## Для bpmbpm:
-### [постотреть Майс 6](https://t.me/bpmsru/1200)
+### ...
 
 Можно добавлять свои To-Do List ...
 
 ## Завершено:
-...
+[Archive](https://github.com/bpmbpm/SemanticBPM/blob/main/misc/TODOsemBPMarc.md)
