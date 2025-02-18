@@ -2,4 +2,4 @@
 
 Примеры и сравнения VAD: aboutVAD.md
 
-Примеры VAD-диаграмм в проекте: VADexample.md
+Примеры VAD-диаграмм в проекте: [VADexample.md](VADexample.md)
