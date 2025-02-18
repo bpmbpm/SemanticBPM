@@ -31,7 +31,7 @@ Business Process Management software tools - инструменты модели
 # Задачи первого шага
 1. Общая МетаМодель системы, см. папку [method](https://github.com/bpmbpm/SemanticBPM/tree/main/method), принципы обработки семантическим движком данных о процессах
 2. Предложения по общему экрану системы (конечно ARIS-образный), см. папку [GUI](https://github.com/bpmbpm/SemanticBPM/tree/main/gui)
-3. Предложения по "действующему образцу", см. папку [MVP](https://github.com/bpmbpm/SemanticBPM/tree/main/MVP)
+3. Предложения по "действующему образцу", как по концепту, так и по реализации (сборке), см. папку [MVP](https://github.com/bpmbpm/SemanticBPM/tree/main/MVP)
 4. Разработка комплекта небольших макетов для практической демонстрации техник Linked Data в BPM. Некоторые направления:
 - VAD-LD-svg, Использование svg – инструментов для формирования и редактирования VAD диаграммы;
 - VAD-LD-drawio, Использование drawio – инструментов для формирования и редактирования VAD диаграммы;
