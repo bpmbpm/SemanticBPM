@@ -35,7 +35,8 @@
 Четверки (квадры) можно кодировать в формате N-Quads или TriG . Квады vs Именованные графы [wiki](https://en.wikipedia.org/wiki/Named_graph): 
 - Квады имеют формат: субъект предикат объект контекст; 
 - Именованные графы: субъект предикат объект graphname. 
-Не совсем понял отличие, но GPT говорит, что есть [Quads.md](https://github.com/bpmbpm/SemanticBPM/blob/main/method/process_codification/GPT_quads_vs_named_graph.md), однако в нашем случае их можно считать синонимами.  
+
+Не совсем понял это отличие, но GPT говорит, что есть см. [Quads vs_named_graph.md](https://github.com/bpmbpm/SemanticBPM/blob/main/method/process_codification/GPT_quads_vs_named_graph.md), однако в нашем случае их можно считать синонимами.  
 Причем сама [wiki пишет](https://en.wikipedia.org/wiki/Named_graph):
 - TriG — именованные графы в Turtle
 - N-Quads - Именованные графы в N-Triples
