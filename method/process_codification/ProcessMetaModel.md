@@ -36,7 +36,7 @@
 - Квады имеют формат: субъект предикат объект контекст; 
 - Именованные графы: субъект предикат объект graphname. 
 
-Не совсем понял это отличие, но GPT говорит, что есть см. [Quads vs_named_graph.md](https://github.com/bpmbpm/SemanticBPM/blob/main/method/process_codification/GPT_quads_vs_named_graph.md), однако в нашем случае их можно считать синонимами.  
+Не совсем понял это отличие, но GPT говорит, что оно есть, см. [Quads vs_named_graph.md](https://github.com/bpmbpm/SemanticBPM/blob/main/method/process_codification/GPT_quads_vs_named_graph.md), однако в нашем случае их можно считать полагаю синонимами.  
 Причем сама [wiki пишет](https://en.wikipedia.org/wiki/Named_graph):
 - TriG — именованные графы в Turtle
 - N-Quads - Именованные графы в N-Triples
