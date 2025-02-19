@@ -1,4 +1,5 @@
 ## Концепт MVP v0.1
+Minimal Viable Product (минимально жизнеспособный продукт).
 Информация:
 1. [коротко из Цели проекта](https://github.com/bpmbpm/SemanticBPM/tree/main?tab=readme-ov-file#mvp)
 2. [образ MVP в upd1 к ontology/smer44](https://github.com/bpmbpm/SemanticBPM/blob/main/ontology/smer44/README.md#mvp). К этому повествованию: В MVP я бы сделал упор (на старте проекта) на максимальное упрощение и использование уже готовых компонентов.
