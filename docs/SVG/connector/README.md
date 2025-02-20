@@ -20,6 +20,8 @@ https://dash14.github.io/v-network-graph/examples/misc.html
 В идеале что-то типа SVGConnector: https://dev.w3.org/SVG/modules/connector/SVGConnector.html 
 
 5 Такой подход (через pure svg) позволит проще визуализировать как графы, так и VAD-элементы и не уходить в использование 
-[Tkinter \ PyQt5](https://dzen.ru/a/ZQ5zzw6vlCcnubt-)
+[Tkinter \ PyQt5](https://dzen.ru/a/ZQ5zzw6vlCcnubt-)  
+Использование SVG избавит от проблем вьюверов, встраивания в html и т.п. Мы отдельным SVG выделим шаблон элементов и будем на него ссылаться, а в самом SVG в идеале оставить: id, ссылка на тип элемента (VAD, но для начала оставим <rect) и id соединитиеля, т.е. фактически триплет:  
+:id1 :id1-id2 :id2 . 
 
 
