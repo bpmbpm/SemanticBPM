@@ -10,8 +10,8 @@ http://tavmjong.free.fr/SVG/CONNECTORS/index.xhtml
 только у меня не заработали.
 
 3 В идеале: найти (создать) SVG редактор для построения графов, где ребра задаются не абсолючными точками, а пересчитываются js скриптом.  
-Примеры SVG редакторов графов:
-https://synset.com/ai/ru/data/graph_editor.html
+Примеры SVG редакторов графов:  
+https://synset.com/ai/ru/data/graph_editor.html  
 https://dash14.github.io/v-network-graph/examples/misc.html
 
 4 Можно конечно использовать библиотеки, типа простых https://www.sigmajs.org/docs/quickstart/  
