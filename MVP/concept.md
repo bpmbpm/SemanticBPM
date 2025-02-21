@@ -14,10 +14,11 @@ Minimal Viable Product (минимально жизнеспособный про
 Ответ: в целом - да. Точнее не конкретного, а типового, вымышленного. Семантика предприятия как верхнеуровневая процессная архитектура. "Семантическое предприятие" - пусть это будет брендом проекта, нарядя с semantic BPM / semantic ARIS. 
 Детальнее (как размышления \ вариант):  
 Более менее понятная картинка будет тогда, когда получим:
-1 Набор из 10 файлов графических схем процессов (SVG, drawio, yEd не важно, главное чтобы встраиваемый viewer был).   
-2 К ним 10 файлов TriG плюс один сводный - как дерево процессов (по нему построим treeview), см. [ProcessMetaModel / Repo MetaModel](https://github.com/bpmbpm/SemanticBPM/blob/main/method/process_codification/ProcessMetaModel.md)   
-3 Все это отобразим в оболочке типа aris publish. 
-Коряво, но это уже представил в [concept.md](https://github.com/bpmbpm/SemanticBPM/blob/main/MVP/concept.md)  
+1. Набор из 10 файлов графических схем процессов (SVG, drawio, yEd не важно, главное чтобы встраиваемый viewer был).   
+2. К ним 10 файлов TriG плюс один сводный - как дерево процессов (по нему построим treeview), см. [ProcessMetaModel / Repo MetaModel](https://github.com/bpmbpm/SemanticBPM/blob/main/method/process_codification/ProcessMetaModel.md)   
+3. Все это отобразим в оболочке типа aris publish. 
+Коряво, но это уже представил в [concept.md](https://github.com/bpmbpm/SemanticBPM/blob/main/MVP/concept.md)   
+
 Сам редактор на первом этапе не столь важен. Главное парсер и viewer графических файлов, встраиваемый в iframe например. Плюс окошко пока просто с sparql. 
 
   
