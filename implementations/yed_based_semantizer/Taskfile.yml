@@ -1,13 +1,18 @@
 version: "3"
 
 tasks:
-  
+
   parse_vad:
     silent: true
     cmds:
-      - python parsers/parse_vad.py -i ../samples/vad_2/vad_2.graphml -o ../samples/vad_2/vad_2.ttl
+      - python parsers/parse_vad.py -i ../../samples/vad_2/vad_2.graphml -o ../../samples/vad_2/vad_2.trig
 
   validate_vad_ttl:
     silent: true
     cmds:
-      - ttl ../samples/vad_2/vad_2.ttl
+      - ttl ../../samples/vad_2/vad_2.trig
+
+  find_process_performers:
+    silent: true
+    cmds:
+      - arq --data ../../samples/vad_2/vad_2.trig --query ../../samples/vad_2/performer_process.rq

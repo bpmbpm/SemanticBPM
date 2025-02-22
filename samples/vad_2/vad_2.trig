@@ -7,6 +7,18 @@
 @prefix : <http://example.org/vad2/diagram#> .
 
 
+:n10 a owl:NamedIndividual, vad:ParentProcess .
+
+:t800 a owl:NamedIndividual, vad:Performer ;
+		rdfs:label "T800" .
+
+:t800 vad:performs :n2 .
+
+:n2 a owl:NamedIndividual, vad:Process ;
+		rdfs:label "Терминирование Сары Коннор" .
+
+:n10 {
+
 :n0 a owl:NamedIndividual, vad:Process ;
 		rdfs:label "Закупка материалов" .
 
@@ -31,20 +43,22 @@
 :n7 a owl:NamedIndividual, vad:Performer ;
 		rdfs:label "Иванова, Петрова" .
 
-:n0 :next :n1 .
+:n0 vad:next :n1 .
 
-:n5 :performs :n1 .
+:n5 vad:performs :n1 .
 
-:n6 :performs :n2 .
+:n6 vad:performs :n2 .
 
-:n7 :performs :n3 .
+:n7 vad:performs :n3 .
 
 :n1 rdfs:comment "комментарий 1" .
 
 :n3 rdfs:comment "комментарий 2" .
 
-:n1 :next :n2 .
+:n1 vad:next :n2 .
 
-:n2 :next :n3 .
+:n2 vad:next :n3 .
 
-:n3 :next :n4 .
+:n3 vad:next :n4 .
+
+}

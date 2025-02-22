@@ -18,7 +18,8 @@ rdf_mapping = {
 node_configuration_mapping = {
     "com.yworks.flowchart.userMessage": "vad:Process",
     "com.yworks.flowchart.start1": "vad:Performer",
-    "com.yworks.flowchart.process": "vad:Comment"
+    "com.yworks.flowchart.process": "vad:Comment",
+    "com.yworks.flowchart.networkMessage": "vad:ParentProcess"
 }
 
 def prefix_header(namespace = "http://example.org/vad2/diagram#"):
@@ -41,6 +42,9 @@ def get_node_by_id(nodes, id):
     for node in nodes:
         if node["id"] == id:
             return node
+
+def is_named_graph(node):
+    return get(node, "type") in ["vad:ParentProcess"]
 
 def is_individual(node):
     return get(node, "type") in ["vad:Process", "vad:Performer"]
@@ -84,7 +88,7 @@ def build_triples(nodes, edges):
     result = ""
     for edge in edges:
         subject = get_node_by_id(nodes, edge["source"])["id"]
-        predicate = get(rdf_mapping, edge["label"], ":" + edge["label"])
+        predicate = get(rdf_mapping, edge["label"], "vad:" + edge["label"])
         object = get_node_by_id(nodes, edge["target"])
         if is_literal(object):
             object = "\"" + object["label"] + "\""
@@ -110,11 +114,20 @@ if __name__ == "__main__":
 
     # triples = [build_triple(edge, processed_nodes) for edge in processed_edges]
 
-    result = prefix_header(args.namespace)
-    result += ""
+    result = ""
     result += build_definitions(processed_nodes, processed_edges)
     result += "\n"
     result += build_triples(processed_nodes, processed_edges)
+
+    named_graph = [node for node in processed_nodes if is_named_graph(node)]
+    if named_graph:
+        named_graph = named_graph[0]
+        named_graph_id = named_graph["id"]
+        named_graph_type = named_graph["type"]
+        result = f":{named_graph_id} {{{result}\n}}"
+        result = f"\n\n:{named_graph_id} a owl:NamedIndividual, {named_graph_type} .\n\n" + result
+
+    result = prefix_header(args.namespace) + result
 
     # pp(result)
     open(args.output, 'w').write(result)

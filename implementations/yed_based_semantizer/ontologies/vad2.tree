@@ -10,6 +10,7 @@ vad2_ontology a:owl/Ontology ns:http://example.org/vad2#
 			Comment
 			Diagram
 			Process
+				ParentProcess
 			Performer
 	object_properties +a:owl/ObjectProperty +hi-inv-rel:subproperty-of
 		next
