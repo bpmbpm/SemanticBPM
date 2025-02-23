@@ -52,7 +52,7 @@
 
 Так rdf выглядит в редакторе онтологий [Protege](https://protege.stanford.edu/download/protege/4.3/installanywhere/Web_Installers/):
 
-<img src="../docs/vad_ttl_in_protege_1.png" width="600" />
+<img src="../../docs/vad_ttl_in_protege_1.png" width="600" />
 
 ## Визуализация результата
 
