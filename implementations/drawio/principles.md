@@ -1,4 +1,4 @@
-ранее дежало в docs/drawio/principles.md 
+ранее лежало в docs/drawio/principles.md 
 # Введение
 Показаны приемы применительно к drawio для формирования RDF (turtle). Это формирование предиката путем вычисления source \ target, получения фрагмента RDF с понятными (человеко-понятным) названием id и другие приемы.    
 
@@ -40,4 +40,4 @@ id = p12.6
 Cм. также: 
 - [Метамодель процессов](https://github.com/bpmbpm/SemanticBPM/wiki/%D0%9C%D0%B5%D1%82%D0%B0%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2)
 - пример в excel: [SemanticBPM/samples/vad_1/vad_1.xlsm](https://github.com/bpmbpm/SemanticBPM/blob/main/samples/vad_1/vad_1.xlsm)
-- файл Книга1_w10.xlsm [SemanticBPM/docs/drawio/Excel_to_drawio/Ex1/](https://github.com/bpmbpm/SemanticBPM/tree/main/implementations/drawio/Excel_to_drawio/Ex1)
+- файл Книга1_w10.xlsm [SemanticBPM/docs/drawio/Excel_to_drawio/Ex1/](https://github.com/bpmbpm/doc/tree/main/Project/SemanticBPM/method)
