@@ -37,5 +37,7 @@ id = p12.6
 
 Внутри схемы процесса, например, "p12.6 Процесс чего-то", все элементы процесса могут иметь коращенный id. 
 
-Cм. также [Метамодель процессов](https://github.com/bpmbpm/SemanticBPM/wiki/%D0%9C%D0%B5%D1%82%D0%B0%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2)
-
+Cм. также: 
+- [Метамодель процессов](https://github.com/bpmbpm/SemanticBPM/wiki/%D0%9C%D0%B5%D1%82%D0%B0%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2)
+- пример в excel: [SemanticBPM/samples/vad_1/vad_1.xlsm](https://github.com/bpmbpm/SemanticBPM/blob/main/samples/vad_1/vad_1.xlsm)
+- файл Книга1_w10.xlsm [SemanticBPM/docs/drawio/Excel_to_drawio/Ex1/](https://github.com/bpmbpm/SemanticBPM/tree/main/implementations/drawio/Excel_to_drawio/Ex1)
