@@ -64,10 +64,10 @@ Business Process Management software tools - инструменты модели
 - Добавление в SVG элемента connector для связи фигур по их id [source & target id в SVG по аналогии с drawio](https://github.com/bpmbpm/SemanticBPM/blob/main/implementations/drawio/principles.md). Проблема [подробнее SVG/connector](https://github.com/bpmbpm/SemanticBPM/blob/main/implementations/SVG/connector/README.md);
 - открытые библиотеки (js, Python) для встаривания схем Visio в web-старницы on-premise приложения (не SharePoint и не MS OneDrive). Пытался разобраться с [drawio vsdxImporter](https://github.com/jgraph/drawio/blob/dev/src/main/webapp/vsdxImporter.html) он же [mxgraph-vsdx](https://github.com/ksholla20/mxgraph-vsdx)- не вышло.
 ## Кодовые ветки
-- [Парсер graphml диаграмм](https://github.com/bpmbpm/SemanticBPM/tree/main/yed_based_semantizer)
+- [Парсер graphm диаграмм yEd](https://github.com/bpmbpm/SemanticBPM/tree/main/implementations/yed_based_semantizer)
 - [Пример SPARQL запроса на rdflib.js](https://github.com/bpmbpm/SemanticBPM/tree/main/samples/vad_1_rdflib)
 ## Связанные источники (внешние проекты)
-- [парсер Semanter, prozion](https://codeberg.org/prozion/semanter)
+- [парсер Semanter \ Semantic charts editor, prozion](https://codeberg.org/prozion/semanter)
 - [Графовый семантический движок, smer44, Peter](https://github.com/smer44/graph-semantical-engine)
 # Используемые термины и сокращения
 - BPM - Business Process Management
