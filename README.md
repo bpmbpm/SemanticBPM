@@ -37,7 +37,7 @@ Business Process Management software tools - инструменты модели
 - VAD-LD-drawio, Использование drawio – инструментов для формирования и редактирования VAD диаграммы;
 - AutoVAD from rdf, Генерация VAD по RDF,
 - LD-editVAD, построение в штатном LD-инструменте VAD диаграммы и ручное редактирование расположения элементов на графе.
-- VAD-LD-yEd, Использование yEd – инструментов для формирования и редактирования VAD диаграммы; см. ветку [yed_based_semantizer](https://github.com/bpmbpm/SemanticBPM/tree/main/yed_based_semantizer).
+- VAD-LD-yEd, Использование yEd – инструментов для формирования и редактирования VAD диаграммы; см. ветку [yed_based_semantizer](https://github.com/bpmbpm/SemanticBPM/tree/main/mplementations/yed_based_semantizer).
   
 Некоторые подробности:
 #### VAD-LD-svg
