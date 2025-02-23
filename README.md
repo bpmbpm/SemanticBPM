@@ -16,12 +16,12 @@ Business Process Management software tools - инструменты модели
 
 ## MVP
 Структурно MVP "мини ARIS (VAD)" мог бы выглядеть так: 
-- графический редактор (visio, svg, drawio, yEd) c преднастроенными шаблонами (Visio shapes stencils and templates) или чуть более расширенная штука, например, включающая, верификатор (типа [вкладка Process в Visio](https://surrogate-tm.github.io/visio/2009/09/10/creating-custom-validation-rules-for-visio-2010.htm) или даже "облегченный" [Aris Express](https://ariscommunity.com/aris-express);
+- внешний графический редактор (visio, svg, drawio, yEd) c преднастроенными шаблонами (Visio shapes stencils and templates) или чуть более расширенная штука, например, включающая, верификатор (типа [вкладка Process в Visio](https://surrogate-tm.github.io/visio/2009/09/10/creating-custom-validation-rules-for-visio-2010.htm) или даже "облегченный" [Aris Express](https://ariscommunity.com/aris-express);
 - разбор файлов схем в RDF (типа yed_based_semantizer);
 - сборщик репозитария на семантическом движке, формрование репозитариев схем процессов и их объектов;
 - publisher, например, простой статический сайт типа первого [ARIS Web Publisher](http://www.bpm.processoffice.ru)
 
-В итоге получим минимальный инструмент Процессного офиса, позволяющий формализовать процессную архитектуру (процессы верхнего уровня) компании любого размера. Графическая семантическая wiki, построенная на стандартах Linked Data и концепции ARIS: схемы процессов \ орг-(и др.)структур + репозитарий процессов и их объектов. Подробнее [Концепт MVP (вариант)](https://github.com/bpmbpm/SemanticBPM/blob/main/MVP/concept.md).
+В итоге получим минимальный инструмент Процессного офиса, позволяющий формализовать процессную архитектуру (процессы верхнего уровня) компании любого размера. Графическая семантическая wiki, построенная на стандартах Linked Data и концепции ARIS: схемы процессов \ орг-(и др.)структур + репозитарий процессов и их объектов. Подробнее Концепт [MVP 0.1](https://github.com/bpmbpm/SemanticBPM/blob/main/MVP/concept.md](https://github.com/bpmbpm/SemanticBPM/wiki/MVP-0.1).
 
 # Ограничения
 Вопрос: Что даст построение BPMS (BPM-системы моделирования) на стандартах LD для топ-менеджеров и рядовых бизнес-пользователей – читателей схем процессов?
