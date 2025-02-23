@@ -61,7 +61,7 @@ Business Process Management software tools - инструменты модели
 [Выбор графического редактора диаграмм](https://github.com/bpmbpm/SemanticBPM/blob/main/implementations/README.md)
 ## Некоторые открытые вопросы
 К редактору схем:
-- Добавление в SVG элемента connector для связи фигур по их id [source & target по аналогии с drawio](https://github.com/bpmbpm/SemanticBPM/blob/main/implementations/drawio/principles.md).  Проблема [подробнее](https://github.com/bpmbpm/SemanticBPM/blob/main/docs/SVG/connector/README.md) - Проблема;
+- Добавление в SVG элемента connector для связи фигур по их id [source & target id в SVG по аналогии с drawio](https://github.com/bpmbpm/SemanticBPM/blob/main/implementations/drawio/principles.md). Проблема [подробнее SVG/connector](https://github.com/bpmbpm/SemanticBPM/blob/main/implementations/SVG/connector/README.md);
 - открытые библиотеки (js, Python) для встаривания схем Visio в web-старницы on-premise приложения (не SharePoint и не MS OneDrive). Пытался разобраться с [drawio vsdxImporter](https://github.com/jgraph/drawio/blob/dev/src/main/webapp/vsdxImporter.html) он же [mxgraph-vsdx](https://github.com/ksholla20/mxgraph-vsdx)- не вышло.
 ## Кодовые ветки
 - [Парсер graphml диаграмм](https://github.com/bpmbpm/SemanticBPM/tree/main/yed_based_semantizer)
