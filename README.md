@@ -85,8 +85,9 @@ Business Process Management software tools - инструменты модели
 # Разное
 ## Документы
 - Базовый doc-склад всего на [github.com/bpmbpm/doc](https://github.com/bpmbpm/doc) ; выделенный doc-скдад [материалов к SemanticBPM](https://github.com/bpmbpm/doc/tree/main/Project/SemanticBPM)
-- [FAQ](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/FAQsemBPM.md)
-- [TODO](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/notes/TODOsemBPM.md)
+- [wiki](https://github.com/bpmbpm/SemanticBPM/wiki) 
+- [FAQ на doc](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/FAQsemBPM.md)
+- [TODO на doc](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/notes/TODOsemBPM.md)
 ## Форум
 ТГ-канал [Семантический Движок, Peter](https://t.me/semanticengine)
 ## Приглашение 
