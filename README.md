@@ -80,7 +80,7 @@ Business Process Management software tools - инструменты модели
 - LD - Linked Data, исторически набор лучших практик для публикации и связывании данных в интернете, который используется сейчас и для локальных задач. Некоторые [LD-проекты](https://github.com/bpmbpm/doc/blob/main/README.md#ld-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B)
 - RDF - Resource Description Framework, графовая модель описания сложных систем, в которой элементы и связи в системе универсально называются "ресурсами", при этом элементам соответствуют вершины графа, а связям - ребра. [rdf11-primer](https://www.w3.org/TR/rdf11-primer/)
 - SVG - Scalable Vector Graphics, XML формат для представления векторной графики.
-- VAD - Value Added Chain диаграмма
+- VAD - Value Added Chain диаграмма, [VAD-материалы из проекта](https://github.com/bpmbpm/SemanticBPM/blob/main/docs/VAD/README.md) 
 - Векторная графика - графика на основе математически вычисляемых примитивов с определенными свойствами, таких как линия, кривая Безье, закрашенный замкнутый контур, градиент и т.д.
 # Разное
 ## Документы
