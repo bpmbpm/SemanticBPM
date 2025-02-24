@@ -77,6 +77,6 @@ MyConfig: Python 3.13 + `pip install -r requirements.txt` `winget install Task.T
 Run:
 `cd C:\Temp1\`
 `git clone https://github.com/bpmbpm/SemanticBPM.git`
-`cd C:\Temp1\SemanticBPM\yed_based_semantizer`
-`task parse_vad`
- 
+`cd C:\Temp1\SemanticBPM\implementations\yed_based_semantizer`
+`task parse_vad`  
+ Замечания см. wiki 
