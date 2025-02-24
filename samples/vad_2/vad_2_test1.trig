@@ -1,0 +1,56 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vad: <http://example.org/vad2#> .
+@prefix : <http://example.org/vad2/diagram#> .
+
+
+:n10 a owl:NamedIndividual, vad:ParentProcess .
+
+:n10 {
+
+:n0 a owl:NamedIndividual, vad:Process ;
+		rdfs:label "Закупка материалов" .
+
+:n1 a owl:NamedIndividual, vad:Process ;
+		rdfs:label "Нарезка проволоки" .
+
+:n2 a owl:NamedIndividual, vad:Process ;
+		rdfs:label "Сгибание проволоки" .
+
+:n3 a owl:NamedIndividual, vad:Process ;
+		rdfs:label "Фасовка изделий" .
+
+:n4 a owl:NamedIndividual, vad:Process ;
+		rdfs:label "Складское хранение" .
+
+:n5 a owl:NamedIndividual, vad:Performer ;
+		rdfs:label "Иванов, Петров" .
+
+:n6 a owl:NamedIndividual, vad:Performer ;
+		rdfs:label "Сидоров" .
+
+:n7 a owl:NamedIndividual, vad:Performer ;
+		rdfs:label "Иванова, Петрова" .
+
+:n0 vad:next :n1 .
+
+:n5 vad:performs :n1 .
+
+:n6 vad:performs :n2 .
+
+:n7 vad:performs :n3 .
+
+:n1 rdfs:comment "комментарий 1" .
+
+:n3 rdfs:comment "комментарий 2" .
+
+:n1 vad:next :n2 .
+
+:n2 vad:next :n3 .
+
+:n3 vad:next :n4 .
+
+}
