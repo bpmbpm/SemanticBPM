@@ -84,9 +84,9 @@ Business Process Management software tools - инструменты модели
 - Векторная графика - графика на основе математически вычисляемых примитивов с определенными свойствами, таких как линия, кривая Безье, закрашенный замкнутый контур, градиент и т.д.
 # Разное
 ## Документы
-- Базовый doc-склад всего на [github.com/bpmbpm/doc](https://github.com/bpmbpm/doc) ; выделенный doc-скдад [материалов к SemanticBPM](https://github.com/bpmbpm/doc/tree/main/Project/SemanticBPM)
+- Общий doc-склад на [github.com/bpmbpm/doc](https://github.com/bpmbpm/doc) ; выделенный doc-склад [материалов к SemanticBPM](https://github.com/bpmbpm/doc/tree/main/Project/SemanticBPM)
 - [wiki](https://github.com/bpmbpm/SemanticBPM/wiki) 
-- [FAQ на doc](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/FAQsemBPM.md)
+- [FAQ на doc](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/FAQsemBPM.md), вкл. схожие проекты;
 - [TODO на doc](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/notes/TODOsemBPM.md)
 ## Форум
 ТГ-канал [Семантический Движок, Peter](https://t.me/semanticengine)
