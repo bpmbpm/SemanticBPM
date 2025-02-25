@@ -54,7 +54,7 @@ Business Process Management software tools - инструменты модели
 - [exDOTsmartDesign](https://github.com/bpmbpm/exDOTsmartDesign) 
 - [jsDOTsmartDesign](https://github.com/bpmbpm/jsDOTsmartDesign)
 
-Нечто похожее на [PlantUML (RomanSeleznev)](https://habr.com/ru/articles/865140/)
+Нечто похожее: [PlantUML (RomanSeleznev)](https://habr.com/ru/articles/865140/) ; [PlantUML с расширением Archimate](https://habr.com/ru/companies/otus/articles/885594/)
 
 # Отдельные технологические вопросы
 ## Выбор редактора схем
