@@ -27,3 +27,4 @@ https://dash14.github.io/v-network-graph/examples/misc.html
 :id1 :id1-id2 :id2 .  
 По большому счету смысл такой же как и при парсинге XML файлов drawio или yEd, но тут мы используем формат, понятный браузеру.
 
+Связанная тема: [Подходы к формализации связи объектов (фигур)](https://github.com/bpmbpm/SemanticBPM/blob/main/implementations/drawio/principles.md)
