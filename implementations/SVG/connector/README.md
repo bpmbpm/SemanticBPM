@@ -32,6 +32,7 @@ https://dash14.github.io/v-network-graph/examples/misc.html
 Временное решение Connector в SVG  
 Смотрм файл ttest2.svg. 
 ![ttest2.svg](ttest2.png)
+
 В папке github.com связи не покажет (js не запустит), т.е. нужно скачать и смотреть. На картинке подменен на ".png".   
 В нем нас интересует только область между </style> и <script>:  
 `<rect id="box1" class="boxProcGreen" x="50" y="50" width="100" height="50"/>` \
