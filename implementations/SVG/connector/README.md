@@ -30,7 +30,7 @@ https://dash14.github.io/v-network-graph/examples/misc.html
 Связанная тема: [Подходы к формализации связи объектов (фигур)](https://github.com/bpmbpm/SemanticBPM/blob/main/implementations/drawio/principles.md)
 ## SVG_createConnector
 Временное решение задачи Connector SVG под кодовом именем "SVG_createConnector".  
-Смотрим файл ttest2.svg. 
+Смотрим файл **ttest2.svg**   
 ![ttest2.svg](ttest2.png)
 
 В папке github.com связи не покажет (js не запустится), т.е. нужно скачать и смотреть. На картинке подменена файла на ".png".   
