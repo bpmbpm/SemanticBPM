@@ -33,9 +33,18 @@ https://dash14.github.io/v-network-graph/examples/misc.html
 Смотрм файл ttest2.svg. В папке github.com связи не покажет (js не запустит), т.е. нужно скачать и смотреть.   
 В нем нас интересует только область между </style> и <script>:  
 `<rect id="box1" class="boxProcGreen" x="50" y="50" width="100" height="50"/>` \
-`<rect id="box2" class="boxProcBlue" x="200" y="80" width="100" height="50" />`  
+`<rect id="box2" class="boxProcBlue" x="200" y="80" width="100" height="50" />` \
+`<rect id="box3" class="boxProcGreen" x="350" y="50" width="100" height="50" />` \
+`<rect id="box4" class="boxProcGreen" x="500" y="50" width="100" height="50" />` \
+Будем считать, что в тих строчках только id="box1", id="box2" и т.п. с координатами, а стили заданы в отдельно (вообще в отдельном файле).  
+Таким образом мы задали объекты, что соответсвует RDF:  
+`:box1 vad:hasType :boxProcGreen .`  
+Отношение :hasNext задается через `createConnector('box1', 'box2');` \
+Таким образом, фактически в формате SVG мы записали тотже RDF и задача парсинга свелась к минимуму. В дальнейшем мы из SVG файла уберем во внешние файлы как сам шаблон (трафарет), так и js. Сейчас это сложно, т.к. придется работать с серверным js, но в рамках макетирования проще с браузерным. Это все из-за проблем с CORS:
+- [CORS1](https://stackoverflow.com/questions/59581827/track-unsafe-attempt-to-load-url-from-frame-with-url)
+- [CORS2](https://ru.stackoverflow.com/questions/830756/%D0%9F%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%BD%D0%B5-%D0%B3%D1%80%D1%83%D0%B7%D1%8F%D1%82%D1%81%D1%8F-svg-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-%D0%B1%D0%B5%D0%B7-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0)
 
-`<rect id="box3" class="boxProcGreen" x="350" y="50" width="100" height="50" />`
+Поэтому предлагаю на первом этапе использовать SVG в предложенном формате и вообще формировать его пока руками. В дальнейшем мы его разделим (шаблон и js). Форматы drawio, yEd и т.п. это по сути такие же js-блоки, которые примерно также обрабатывают source \ target и дополнительные навороты этих форматов (пользовательские данные фигур и т.п.). Нам чтобы быстрее продвинуться с MVP можно съекономить время, взяв за онову пердложенный формат ttest2.svg.
 
-`<rect id="box4" class="boxProcGreen" x="500" y="50" width="100" height="50" />`
+Еще раз: ttest2.svg это по сути тот же RDF, представленный в блоке между </style> и <script> и после "// Создаем соединения между элементами".
 
