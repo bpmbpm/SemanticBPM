@@ -25,5 +25,5 @@ SPARQL запрос спрашивает: Выведи название (id) п�
 Результат запроса будет «Process_1_2», полный адрес \ url \ iri = `http://example.org/EKG/all_processes#Process_1_2`
 
 Информация:
-- Типы отношений (методология, метамодель) см. [method](https://github.com/bpmbpm/SemanticBPM/tree/main/method#readme)
+- Типы отношений (методология, метамодель) см. [Repo MetaModel, TriG](https://github.com/bpmbpm/SemanticBPM/wiki/%D0%9C%D0%B5%D1%82%D0%B0%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2)
 - Введение в [SPARQL](https://github.com/bpmbpm/doc/blob/main/README.md#sparql)
