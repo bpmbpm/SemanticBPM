@@ -30,10 +30,13 @@ https://dash14.github.io/v-network-graph/examples/misc.html
 Связанная тема: [Подходы к формализации связи объектов (фигур)](https://github.com/bpmbpm/SemanticBPM/blob/main/implementations/drawio/principles.md)
 ## SVG_createConnector
 Временное решение задачи Connector SVG под кодовом именем "SVG_createConnector".  
-Смотрим файл **ttest2.svg**   
+ 
 ![ttest2.svg](ttest2.png)
+Рис. Файл ttest2.svg 
 
-В папке github.com связи не покажет (js не запустится), т.е. нужно скачать и смотреть. На картинке подменена файла на ".png".   
+В папке github.com  файл ttest2.svg связи не покажет (js не запустится), т.е. нужно скачать и смотреть или запускаить через Github Pages 
+https://bpmbpm.github.io/SemanticBPM/implementations/SVG/connector/ttest2.svg  
+Поэтому на Рис. подменена файла на ".png".   
 В нем нас интересует только область между </style> и <script>:  
 `<rect id="box1" class="boxProcGreen" x="50" y="50" width="100" height="50"/>` \
 `<rect id="box2" class="boxProcBlue" x="200" y="80" width="100" height="50" />` \
