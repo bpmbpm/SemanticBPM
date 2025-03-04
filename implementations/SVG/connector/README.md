@@ -29,6 +29,7 @@ https://dash14.github.io/v-network-graph/examples/misc.html
 
 Связанная тема: [Подходы к формализации связи объектов (фигур)](https://github.com/bpmbpm/SemanticBPM/blob/main/implementations/drawio/principles.md)
 ## SVG_createConnector
+[Связанная ссылка на Файл ttest5a.svg](https://github.com/bpmbpm/doc/blob/main/test/SVG/README.md)
 Временное решение задачи Connector SVG под кодовом именем "SVG_createConnector".  
  
 ![ttest2.svg](ttest2.png)
