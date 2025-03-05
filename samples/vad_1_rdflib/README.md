@@ -26,7 +26,7 @@ SPARQL запрос спрашивает: Выведи название (id) п�
 
 В файл exSparql_1_full.js добавил вывод всех триплетов:  
 `store.statements.forEach(statement => {` \
-    `console.log(`Триплет: ${statement.subject.value} ${statement.predicate.value} ${statement.object.value}`);` \
+    `console.log("Триплет: ${statement.subject.value} ${statement.predicate.value} ${statement.object.value}");` \
 `});` \
 
 Информация:
