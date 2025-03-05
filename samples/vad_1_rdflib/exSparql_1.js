@@ -24,7 +24,7 @@ console.log(`Загружено триплетов: ${store.length}`);  // lengt
 */
 
 const sparqlQuery = `
-PREFIX : <http://example.org/EKG/all_process#>
+PREFIX : <http://example.org/EKG/all_processes#>
 PREFIX vad: <http://example.org/semanter/vad#>
 SELECT DISTINCT ?s1 WHERE { ?s1 vad:hasNext :Process_1_3 .}  
 `;
