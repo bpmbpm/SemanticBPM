@@ -1,6 +1,6 @@
 # Пример SPARQL запроса к TripleStore (RDF store) на rdflib.js
 ## Установка
-Node.js + [rdflib.js](https://linkeddata.github.io/rdflib.js/doc/index.html) (не путать с одноименной Python-библиотекой). В папке проекта:  
+Node.js + [rdflib.js](https://linkeddata.github.io/rdflib.js/doc/index.html) (не путать с одноименной Python-библиотекой). В папке проекта (папке тестирования):  
 `npm install rdflib`
 `npm add @babel/runtime`
 ## Файл хх.ttl
