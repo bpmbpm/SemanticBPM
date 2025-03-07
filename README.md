@@ -96,4 +96,4 @@ Business Process Management software tools - инструменты модели
 ТГ-канал [Семантический Движок, Peter](https://t.me/semanticengine)
 ## Приглашение 
 Желающие (сделать мир BPM лучше) поучаствовать на общественных началах в этом проекте (желательно js \ python) [пишите](https://t.me/D_m_itr).  
-Усилия контрибьюторов планируется направить в первую очередь на реализацию [ARIS-based & RDF-based MVP](https://github.com/bpmbpm/SemanticBPM/wiki/MVP-0.1) как реализацию [базового технологического концепта](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/method/arisLDconcept.md) и создание semantic BPM\ semantic ARIS как прототип BPM "следующего поколения".  
+Усилия контрибьюторов планируется направить в первую очередь на реализацию [ARIS-based & RDF-based MVP](https://github.com/bpmbpm/SemanticBPM/wiki/MVP-0.1) как реализацию [базового технологического концепта](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/method/arisLDconcept.md) и создание semantic BPM\ semantic ARIS как прототип BPM "следующего поколения". Задача проекта Semantic BPM \ Semantic ARIS: "прорубить" окно из мира семантики в мир BPM (EA).
