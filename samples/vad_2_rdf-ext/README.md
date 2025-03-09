@@ -33,6 +33,6 @@ loadTrig_SPARQL.mjs и process1.trig так и не заработал корр�
 Чтобы исправить это, нужно либо использовать полные URI в запросе, либо преобразовать сокращённые формы в полные URI перед сравнением.
 
 ### Итог
-npm install rdf-ext rdf-fetch rdf-parser-n3 sparqljs - перебор  
+npm install rdf-ext rdf-fetch rdf-parser-n3 sparqljs - перебор для загрузки TriG и  SPARQL-запроса   
 Обзор https://github.com/bpmbpm/doc/blob/main/test/rdf_lib.md
 
