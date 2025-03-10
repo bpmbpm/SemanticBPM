@@ -4,7 +4,8 @@ install:
 `npm install rdf-ext @rdfjs/parser-n3 @rdfjs/formats-common` \
 Файлы вкл., loadTrig.mjs и vad_2_test1utf.trig, делаем в кодировке utf, иначе руских букв не будет. Например, открыть файл в PSPad, меню Кодировка в выбирать "Unicode UTF-8 no BOM" и сохранить.
 #### 1 Загрузка TriG из файла
-Run: `node loadTrig.mjs' загружает vad_2_test1utf.trig  
+Run: `node loadTrig.mjs` загружает vad_2_test1utf.trig
+
 При запуске `node loadTrig.mjs` на экран получим:  
 список всех TriG, загруженных в triple store и   
 `Число загруженных TriG элементов: 35`
@@ -28,6 +29,7 @@ javascript:
 ### SPARQL
 rdf-ext не имеет встроенной поддержки SPARQL-запросов, поэтому: `npm install sparqljs`  
 Run: `loadTrig_SPARQL.mjs` загружает process1.trig  
+
 Пример loadTrig_SPARQL.mjs с process1.trig так и не заработал корректно.  
 chat.deepseek.com показывает, что у него результат не пустой, но у меня пустой.   
 Среди проблем:  
