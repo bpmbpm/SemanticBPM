@@ -78,7 +78,8 @@ Business Process Management software tools - инструменты модели
 - EA - Enterprise Architecture - Архитектура предприятия как в широком смысле, так и в узком - IT архитектура компании. Пример [Простая Enterprise Architecture](  https://habr.com/ru/articles/726428/)
 - [EPC - Event-Driven Process Chain, цепочка процессов, управляемая событиями (диаграмма)](http://sewiki.ru/Event-Driven_Process_Chain)
 - [EKG - Enterprise Knowledge Graph](https://github.com/bpmbpm/doc/blob/main/README.md#enterprise-knowledge-graph)
-- LD - Linked Data, исторически набор лучших практик для публикации и связывании данных в интернете, который используется сейчас и для локальных задач. Некоторые [LD-проекты](https://github.com/bpmbpm/doc/blob/main/README.md#ld-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B). Бернерс-Ли о Linked Data [EnterpriseModeling.pdf c23+1](https://bpmbpm.github.io/doc/LD/trinidata/EnterpriseModeling.pdf#page=24) 
+- LD - Linked Data, исторически набор лучших практик для публикации и связывании данных в интернете, который используется сейчас и для локальных задач. Некоторые [LD-проекты](https://github.com/bpmbpm/doc/blob/main/README.md#ld-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B) и подборка материалов на [doc/LD](https://github.com/bpmbpm/doc/blob/main/LD/readme.md).   
+Бернерс-Ли о Linked Data [EnterpriseModeling.pdf c23+1](https://bpmbpm.github.io/doc/LD/trinidata/EnterpriseModeling.pdf#page=24). 
 - RDF - Resource Description Framework, графовая модель описания сложных систем, в которой элементы и связи в системе универсально называются "ресурсами", при этом элементам соответствуют вершины графа, а связям - ребра. [rdf11-primer](https://www.w3.org/TR/rdf11-primer/)
 - SVG - Scalable Vector Graphics, XML формат для представления векторной графики.
 - VAD - Value Added Chain диаграмма, [VAD-материалы из проекта](https://github.com/bpmbpm/SemanticBPM/blob/main/docs/VAD/README.md) 
