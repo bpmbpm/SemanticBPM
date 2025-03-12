@@ -87,7 +87,7 @@ Business Process Management software tools - инструменты модели
 ## Документы
 - [wiki](https://github.com/bpmbpm/SemanticBPM/wiki) 
 
-## Документы на bpmbpm/doc
+## Документы на [bpmbpm/doc](https://github.com/bpmbpm/doc)
 - Общий doc-склад на [github.com/bpmbpm/doc](https://github.com/bpmbpm/doc) ;
 - Выделенный doc-склад [материалов к SemanticBPM](https://github.com/bpmbpm/doc/tree/main/Project/SemanticBPM) ;
 - [FAQ на doc](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/FAQsemBPM.md), вкл. схожие проекты;
