@@ -1,4 +1,5 @@
 ### Пример SPARQL к файлам TriG
+#### 1 Упрощенный
 Пример отсюда: https://www.npmjs.com/package/@comunica/query-sparql-file  
 Задача: используя comunica делать SPARQL - запросы к файлам TriG.  
 **Установка:**    
@@ -22,4 +23,9 @@
 
 см. также
 https://github.com/bpmbpm/doc/tree/main/test/comunica
-
+#### 2 PREXIX и др.
+В `com_trig2.mjs` добавлен PREFIX
+```
+ PREFIX : <http://example.org/vad/dia#>
+  SELECT ?s ?p ?o ?g
+```
