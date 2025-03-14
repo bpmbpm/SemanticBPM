@@ -17,6 +17,8 @@ cd папка проекта
     } 
   }
 ```
+Будут найдены и выделены все подпроцессы, предшедствующие (hasNext) процессу p1.3.
+
 см. также
 https://github.com/bpmbpm/doc/tree/main/test/comunica
 
