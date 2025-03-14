@@ -6,8 +6,17 @@ cd папка проекта
 `npm install @comunica/query-sparql-file`  
 **run** `node com_trig1.mjs`  
 В папке должны лежать process1.trig и process2.trig  
-
-
+В примере по запросу:
+```
+  SELECT ?s ?p ?o ?g
+    WHERE {
+    GRAPH ?g {        
+      ?s <http://example.org/vad/dia#hasNext> <http://example.org/vad/dia#p1.3>.
+      ?s ?p ?o
+      
+    } 
+  }
+```
 см. также
 https://github.com/bpmbpm/doc/tree/main/test/comunica
 
