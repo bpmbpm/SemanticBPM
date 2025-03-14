@@ -23,7 +23,7 @@
 
 см. также
 https://github.com/bpmbpm/doc/tree/main/test/comunica
-#### 2 PREXIX и др.
+#### 2 PREFIX etc
 В `com_trig2.mjs` добавлен PREFIX
 ```
  PREFIX : <http://example.org/vad/dia#>
