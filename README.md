@@ -3,6 +3,7 @@ Business Process Management software tools - инструменты модели
 
 Если Semantic BPM - еще достаточно редкое направление, то его "близнец" - Semantic ЕА более распространенное словосочетание, включая: [Enterprise Knowledge](https://enterprise-knowledge.com/building-a-semantic-enterprise-architecture/) (знания они по определению семантические), [enterprise information architecture](https://blog.metaphacts.com/how-a-semantic-model-can-elevate-your-enterprise-information-architecture) (ранее [ontodia.org](http://ontodia.org)), а также EKG (Enterprise Knowledge Graph) и т.п.  
 Семантические BPM и EA основаны на технологиях Semantic Web: [Using Semantic Web Technologies for Enterprise Architecture Analysis](https://www.semanticscholar.org/paper/Using-Semantic-Web-Technologies-for-Enterprise-Osenberg-Langermeier/a2b4c416d100eb4f7dad68a49ee2cad3974013e0). Фактически вместо модного, но непонятного термина "цифровизация предприятия" (автоматизация?) вводится ["семантизация предприятия"](https://github.com/bpmbpm/doc/tree/main/BPM/TERM#semantic-enterprise) (через EKG).  
+В целом: Semantic BPM (EA) \ Semantic ARIS \ Semantic Enterprise (EKG)   
 
 # Цель
 Внедрение в инструменты BPM и EA технологий knowledge management на стандартах Linked Data (LD), аналогичного концепту: "MediaWiki vs Semantic MediaWiki".
