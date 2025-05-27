@@ -1,4 +1,4 @@
-## Будем складывать инфо по VAD
+## VAD info
 
 Примеры и сравнения VAD: [aboutVAD.md](aboutVAD.md)
 
