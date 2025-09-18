@@ -92,7 +92,7 @@ Business Process Management software tools - инструменты модели
 ## Документы на [bpmbpm/doc](https://github.com/bpmbpm/doc)
 - Общий doc-склад на [github.com/bpmbpm/doc](https://github.com/bpmbpm/doc) ;
 - Выделенный doc-склад [материалов к SemanticBPM](https://github.com/bpmbpm/doc/tree/main/Project/SemanticBPM) ;
-- [FAQ на doc](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/FAQsemBPM.md), вкл. схожие проекты;
+- [FAQ на doc](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/FAQsemBPM.md), вкл. схожие проекты и [A2 «Вопрос основной ...](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/FAQsemBPM.md#a2-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9---%D0%B0-%D0%BD%D0%B0%D1%85%D1%80%D0%B5%D0%BD%D0%B0-%D0%BE%D0%BD-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-%D1%8D%D1%82%D0%BE%D1%82-%D0%B2%D0%B0%D1%88-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82);
 - [TODO на doc](https://github.com/bpmbpm/doc/blob/main/Project/SemanticBPM/notes/TODOsemBPM.md)
 ## Форум
 ТГ-канал [Семантический Движок, Peter](https://t.me/semanticengine)
