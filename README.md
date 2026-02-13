@@ -5,7 +5,8 @@ Business Process Management software tools - инструменты модели
 Семантические BPM и EA основаны на технологиях Semantic Web: [Using Semantic Web Technologies for Enterprise Architecture Analysis](https://www.semanticscholar.org/paper/Using-Semantic-Web-Technologies-for-Enterprise-Osenberg-Langermeier/a2b4c416d100eb4f7dad68a49ee2cad3974013e0). Фактически вместо модного, но непонятного термина "цифровизация предприятия" (автоматизация?) вводится ["семантизация предприятия"](https://github.com/bpmbpm/doc/tree/main/BPM/TERM#semantic-enterprise) (через EKG).  
 В целом: Semantic BPM (EA) \ Semantic ARIS \ Semantic Enterprise (EKG)   
 Технологически: Предприятие как знание (EasK) = ARIS-based (BPMS, общий подход к визуализации, GUI) + RDF-based (язык формальной семантики) + онтология (спецификация предмета) + DaC, [Diagram as Code](https://github.com/bpmbpm/doc/blob/main/visualization/diagramascode/README.md#diagram-as-code-dac) (BPasCode / EAasCode) 
-# Цель
+# mission
+Цель
 Внедрение в инструменты BPM и EA технологий knowledge management на стандартах Linked Data (LD), аналогичного концепту: "MediaWiki vs Semantic MediaWiki".
 Общая концепция BPM vs semanticBPM изложена в статьях :
 - [Semantic BPM. Семантика и синтаксис бизнес-процессов](https://habr.com/ru/articles/795883/)
@@ -25,7 +26,8 @@ Business Process Management software tools - инструменты модели
 
 В итоге получим минимальный инструмент Процессного офиса, позволяющий формализовать процессную архитектуру (процессы верхнего уровня) компании любого размера. Графическая семантическая wiki, построенная на стандартах Linked Data и концепции ARIS: схемы процессов \ орг-(и др.)структур + репозитарий процессов и их объектов. Подробнее Концепт [MVP 0.1](https://github.com/bpmbpm/SemanticBPM/wiki/MVP-0.1).
 
-# Ограничения
+# restrictions
+Ограничения
 Вопрос: Что даст построение BPMS (BPM-системы моделирования) на стандартах LD для топ-менеджеров и рядовых бизнес-пользователей – читателей схем процессов?
 
 Ответ: В визуализации ничего дополнительного к классическим инструментам BPM не будет: схемы процессов и архитектур будут выглядеть идентично VAD, EPC, BPNM, C4, Archimate и т.п.
