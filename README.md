@@ -68,6 +68,8 @@ Business Process Management software tools - инструменты модели
 
 Нечто похожее: [PlantUML (RomanSeleznev)](https://habr.com/ru/articles/865140/) ; [PlantUML с расширением Archimate](https://habr.com/ru/companies/otus/articles/885594/)
 
+Рабочий Макет см. https://github.com/bpmbpm/SemanticBPM/blob/main/README.md#mvp-1q2026-new
+
 # Отдельные технологические вопросы
 ## Выбор редактора схем
 [Выбор графического редактора диаграмм](https://github.com/bpmbpm/SemanticBPM/blob/main/implementations/README.md)
