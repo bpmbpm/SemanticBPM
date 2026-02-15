@@ -26,7 +26,8 @@ Business Process Management software tools - инструменты модели
 - publisher, например, простой статический сайт типа первого [ARIS Web Publisher](http://www.bpm.processoffice.ru)
 
 В итоге получим минимальный инструмент Процессного офиса, позволяющий формализовать процессную архитектуру (процессы верхнего уровня) компании любого размера. Графическая семантическая wiki, построенная на стандартах Linked Data и концепции ARIS: схемы процессов \ орг-(и др.)структур + репозитарий процессов и их объектов. Подробнее Концепт [MVP 0.1](https://github.com/bpmbpm/SemanticBPM/wiki/MVP-0.1).
-### MVP 1q2026
+### MVP 1q2026 (new)
+Реализован макет **AutoVAD from rdf**
 - code https://github.com/bpmbpm/rdf-grapher/tree/main/ver9d 
 - info https://github.com/bpmbpm/rdf-grapher/blob/main/introduction
 
