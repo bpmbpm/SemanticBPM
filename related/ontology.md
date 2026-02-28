@@ -10,4 +10,8 @@
 Нужны инструменты для архитекторов/knowledge engineers, которые позволяют из Sparx/XMI делать Настоящую онтологию и красивый graph в ui палантир.
 
 ### info
-- [Понимание операционной онтологии Palantir: руководство для начинающих с реальными примерами]https://www.linkedin.com/pulse/understanding-palantirs-operational-ontology-beginners-kozlov-d0vse/)
+- [Понимание операционной онтологии Palantir: руководство для начинающих с реальными примерами]https://www.linkedin.com/pulse/understanding-palantirs-operational-ontology-beginners-kozlov-d0vse/) см. doc
+
+### link
+- https://www.semspect.de/
+- https://service.tib.eu/webvowl/
