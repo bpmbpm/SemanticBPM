@@ -7,8 +7,8 @@
 - https://github.com/OP-TED/model2owl
 
 ### tools
-Нужны инструменты для архитекторов/knowledge engineers, которые позволяют из Sparx/XMI делать Настоящую онтологию и красивый graph в ui палантир.
-
+- Нужны инструменты для архитекторов/knowledge engineers, которые позволяют из Sparx/XMI делать Настоящую онтологию и красивый graph в ui палантир.
+- https://ontograph.ru/osawl/
 ### info
 - [Понимание операционной онтологии Palantir: руководство для начинающих с реальными примерами]https://www.linkedin.com/pulse/understanding-palantirs-operational-ontology-beginners-kozlov-d0vse/) см. doc
 
