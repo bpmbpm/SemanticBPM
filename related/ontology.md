@@ -1,6 +1,7 @@
 ### ontology
 Есть в OWL онтологии 
-- BPMN
-- Archimate
+- BPMN (doc)
+- Archimate (rdf-grapher)
 
--   
+### UML   
+- https://github.com/OP-TED/model2owl
